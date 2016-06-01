@@ -1,3 +1,6 @@
+#    SHAO - Shanghai Astronomical Observatory, Chinese Academy of Sciences
+#    80 Nandan Road, Shanghai 200030 
+#    China
 #
 #    ICRAR - International Centre for Radio Astronomy Research
 #    (c) UWA - The University of Western Australia
@@ -42,7 +45,7 @@ parser.add_option("-n","--node-id",action="store",dest="node_id",help="The node 
 
 obsnum=opts.obsnum
 proj=opts.proj
-bashdir='MWABASECODEdir/bin'
+bashdir='/home/blao/course/bin'
 model=opts.model
 tgt_obsnum=opts.tgtobsnum
 node_id=opts.node_id
