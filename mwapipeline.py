@@ -44,7 +44,7 @@ from dfms.restutils import RestClient
 
 
 lgnames = ['lofar_std.json', 'chiles_two.json', 'test_grpby_gather.json',
-'chiles_two_dev1.json', 'chiles_simple.json']
+'chiles_two_dev1.json', 'chiles_simple.json','mwa_pipeline.json']
 
 
 class MonitorClient(object):
@@ -80,19 +80,23 @@ class MonitorClient(object):
       
        # with open("pg.txt",'w') as f:
        #     f.write(str(pg_spec))
+       #if you use logical graph delete it or comment it
+      #########################################
         pgn=opts.json
         with open(pgn,'r') as f:
             pg_spec=json.load(f)
             #pg_spec=json.dumps(pg_spec)
-        
-        print pg_spec
+       ##############################3##### 
+       # print pg_spec
         node_list = self.get_avail_hosts() 
         if self._output:
             with open(self._output, 'w') as f:
                 json.dump(pg_spec, f, indent=2)
+        #if you use physical graph:'uid',otherwise 'oid'
         completed_uids = [x['uid'] for x in droputils.get_roots(pg_spec)]
         #completed_uids='bash_shell_app__000001'
      #   print pg_spec
+       # if you use physical graph : 'pgn',otherwise: 'lgn'
         ssid = "{0}-{1}".format(pgn.split('.')[0], lg._session_id)
         self._dc.create_session(ssid)
         print "session created"
