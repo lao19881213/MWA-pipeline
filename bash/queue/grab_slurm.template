@@ -3,15 +3,10 @@
 # Queues up some data grabbing via obsdownload.py
 
 #SBATCH --partition=copyq
-#SBATCH --account=mwasci
+#SBATCH --account=courses02
 #SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --output=QUEUEDIR/OUTPUT.o%j
 #SBATCH --error=QUEUEDIR/OUTPUT.e%j
 #SBATCH --export=NONE
-
-
-source /home/blao/course/bashrc_append
-source /home/blao/course/profile_append
-source /home/blao/bashrc

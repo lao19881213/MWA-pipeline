@@ -4,17 +4,14 @@
 # Then submits cotter job
 # Data must be available on the archive!
 
-# Edit / add to these options for your supercomputer
-
-source $MWABASH/bashrc_append
+# Edit / add to these options for your server
 
 scheduler="slurm"
 ncpus=20
 
-rootdir=/scratch2/mwasci
-datadir=$rootdir/blao/data
+datadir=$MWASCI/mwa_data
 #codedir=$rootdir/code
-queuedir=$MWABASH/queue
+queuedir=$MWASCI/course/queue
 
 if [[ $1 ]] && [[ $2 ]]
 then
@@ -27,11 +24,13 @@ then
     cd $queuedir
     if [[ ! -d $datadir/${proj}/${obsnum}/${obsnum}.ms ]]
     then
+        cat cot_${scheduler}.template > cot_${obsnum}.sh
         cat grab_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g"  | sed "s;DATADIR;${datadir};g" > grb_${obsnum}.sh
-        cat cot_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;NCPUS;${ncpus};g" > cot_${obsnum}.sh
+        cat cot_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;NCPUS;${ncpus};g" >> cot_${obsnum}.sh
     fi
     echo "bash ${queuedir}/cot_${obsnum}.sh" >> grb_${obsnum}.sh
     bash grb_${obsnum}.sh
+    
 else
     echo "Give me an observation number and a project ID, e.g. grab_cot.sh 1012345678 G0001 ."
     exit 1

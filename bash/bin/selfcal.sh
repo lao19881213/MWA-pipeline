@@ -2,16 +2,14 @@
 
 # Self-calibrates an observation using Andre's WSClean and calibrate tool
 
-# Edit / add to these options for your supercomputer
-source $MWABASH/bashrc_append
-
+# Edit / add to these options for your ssever
+   
 scheduler="slurm"
 ncpus=20
 
-rootdir=/scratch2/mwasci
-datadir=$rootdir/blao/data
+datadir=$MWASCI/mwa_data
 #codedir=$rootdir/code
-queuedir=$MWABASH/queue
+queuedir=$MWASCI/course/queue
 
 if [[ $1 ]] && [[ $2 ]]
 then
@@ -25,7 +23,8 @@ then
     cd $queuedir
     if [[ -d $datadir/${proj}/${obsnum}/${obsnum}.ms ]]
     then
-        cat self_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;NCPUS;${ncpus};" > self_${obsnum}.sh
+        cat self_${scheduler}.template> self_${obsnum}.sh
+        cat self_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;NCPUS;${ncpus};" >> self_${obsnum}.sh
     else
         echo "$datadir/${proj}/${obsnum}/${obsnum}.ms doesn't exist!"
     fi

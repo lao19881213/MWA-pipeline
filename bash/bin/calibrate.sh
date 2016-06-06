@@ -2,21 +2,17 @@
 
 # Calibrates an observation using Andre's calibrate tool
 
-# Edit / add to these options for your supercomputer
+# Edit / add to these options for your sever
 
-source $MWABASH/bashrc_append
-export OMP_NUM_THREADS=20
-    
 scheduler="slurm"
 ncpus=20
 
-rootdir=/scratch2/mwasci
-datadir=$rootdir/blao/data
+datadir=$MWASCI/mwa_data
 #codedir=$rootdir/code
-queuedir=$MWABASH/queue
+queuedir=$MWASCI/course/queue
 
 # Andre provides models for various calibrators
-modeldir=$MWA_CODE_BASE/anoko/mwa-reduce/models
+modeldir=$MWASCI/mwa-reduce/models
 
 if [[ $1 ]] && [[ $2 ]] && [[ $3 ]]
 then
@@ -54,7 +50,8 @@ then
     cd $queuedir
     if [[ -d $datadir/${proj}/${obsnum}/${obsnum}.ms ]]
     then
-        cat cal_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;MODELDIR;${modeldir};g" | sed "s;CALMODEL;${calmodel};g" | sed "s;NCPUS;${ncpus};"  > cal_${obsnum}.sh
+        cat cal_${scheduler}.template  > cal_${obsnum}.sh
+        cat cal_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;MODELDIR;${modeldir};g" | sed "s;CALMODEL;${calmodel};g" | sed "s;NCPUS;${ncpus};"  >> cal_${obsnum}.sh
     else
         echo "$datadir/${proj}/${obsnum}/${obsnum}.ms doesn't exist!"
     fi

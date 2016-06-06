@@ -1,21 +1,10 @@
-#!/bin/bash -l
+#!/bin/bash 
 
 # Cotter the data
 
-#SBATCH --account=mwasci
-##SBATCH --reservation=workq
-#SBATCH --time=01:00:00
-#SBATCH --nodes=1
-#SBATCH --mem=64gb
-#SBATCH --output=/home/blao/course/queue/cot_1146606064.o%j
-#SBATCH --error=/home/blao/course/queue/cot_1146606064.e%j
-#SBATCH --export=NONE
 
-source /home/blao/course/bashrc_append
-source /home/blao/course/profile_append
-
-aprun="aprun -n 1 -d 20 -q "
-cd /scratch2/mwasci/blao/data/G0008/1146606064
+aprun="mpirun -np -1 "
+cd /home/lbq/lbq/mwasci/mwa_data/G0008/1146606064
 make_metafits.py -g 1146606064
 if [[ -e 1146606064_flags.zip ]]
 then

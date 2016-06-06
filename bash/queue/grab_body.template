@@ -1,5 +1,6 @@
 #!/bin/bash
 
 cd DATADIR/PROJ
-obsdownload.py -o OBSNUM
+python $LIBPATH/mwapipeline/bin/obsdownload.py -o OBSNUM
+
 

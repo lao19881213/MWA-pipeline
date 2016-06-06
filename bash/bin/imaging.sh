@@ -3,18 +3,16 @@
 # Calibrates an observation using Andre's calibrate tool
 
 # Edit / add to these options for your sever
-source $MWABASH/bashrc_append
 
 scheduler="slurm"
 ncpus=20
 
-rootdir=/scratch2/mwasci
-datadir=$rootdir/blao/data
+datadir=$MWASCI/mwa_data
 #codedir=$rootdir/code
-queuedir=$MWABASH/queue
+queuedir=$MWASCI/course/queue
 
 # Andre provides models for various calibrators
-modeldir=$MWA_CODE_BASE/anoko/mwa-reduce/models
+modeldir=$MWASCI/mwa-reduce/models
 
 if [[ $1 ]] && [[ $2 ]] && [[ $3 ]] && [[ $4 ]]
 then
@@ -53,7 +51,8 @@ then
     cd $queuedir
     if [[ -d $datadir/${proj}/${obsnum}/${obsnum}.ms ]]
     then
-        cat imag_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;MODELDIR;${modeldir};g" | sed "s;CALMODEL;${calmodel};g" | sed "s;NCPUS;${ncpus};g" | sed "s;TGTNUM;${tgtobsnum};"  > imag_${obsnum}.sh
+        cat imag_${scheduler}.template  > imag_${obsnum}.sh
+        cat imag_body.template | sed "s;OBSNUM;${obsnum};g" | sed "s;PROJ;${proj};g" | sed "s;DATADIR;${datadir};g" | sed "s;MODELDIR;${modeldir};g" | sed "s;CALMODEL;${calmodel};g" | sed "s;NCPUS;${ncpus};g" | sed "s;TGTNUM;${tgtobsnum};"  >> imag_${obsnum}.sh
     else
         echo "$datadir/${proj}/${obsnum}/${obsnum}.ms doesn't exist!"
     fi

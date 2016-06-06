@@ -8,13 +8,13 @@ aprun="mpirun -np 1 "
 
 datadir=/home/lbq/lbq/mwasci/mwa_data
 proj=G0008
-obsnum=1146607264
-calmodel=model-3C444-point-source.txt
+obsnum=1115292048
+calmodel=model-PKS2356-61-point-source.txt
 modeldir=/home/lbq/lbq/mwasci/mwa-reduce/models
 ncpus=20
 calnotxt=`echo $calmodel | sed "s/.txt//"`
 
-cd /home/lbq/lbq/mwasci/mwa_data/G0008/1146607264
+cd /home/lbq/lbq/mwasci/mwa_data/G0008/1115292048
 # Hack to work around broken PYTHONPATH lookup
 if [[ ! -d mwapy ]]
 then
