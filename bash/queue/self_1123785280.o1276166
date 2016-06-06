@@ -1,0 +1,1252 @@
+
+WSClean version 1.10 (2015-12-12)
+This software package is released under the GPL version 3.
+Author: André Offringa (offringa@gmail.com).
+
+First measurement set has corrected data: tasks will be applied on the corrected data column.
+=== IMAGING TABLE ===
+       # Pol Ch JG ²G Freq(MHz)
+| Independent group:
++-+-J- 0 XX   0  0  0  139-170
+    J- 1 XY   0  0  0  139-170
+    J- 2 YX   0  0  0  139-170
+    J- 3 YY   0  0  0  139-170
+
+Reordering 1123785280.ms (231168 selected rows) into 1 x 4 parts.
+Reordering: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Detected 63 GB of system memory, usage not limited.
+Opening reordered part 0 spw 0 for 1123785280.ms
+Precalculating weights for Briggs'(-1) weighting... DONE
+ == Constructing PSF ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Suggested number of w-layers: 315
+Will process 315/315 w-layers per pass.
+Gridding pass 0... 
+Rows that were required: 227584/0
+Fourier transforms...
+Total rows read: 227584
+Freed 355 image buffer(s).
+Fitting beam... major=2.79', minor=2.25', PA=93.17 deg, theoretical=2.12'.
+Writing psf image... DONE
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 10 image buffer(s).
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 355 image buffer(s).
+Writing dirty image...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 11 image buffer(s).
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 670 image buffer(s).
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 21 image buffer(s).
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 670 image buffer(s).
+Adding XY and YX together...
+Adding XY and YX together...
+Writing dirty image...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 21 image buffer(s).
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 355 image buffer(s).
+Writing dirty image...
+ == Cleaning (1) ==
+Freed 1 image buffer(s).
+Initial peak: 56.6505 Jy at 2000,2000
+Iteration 0: 56.6505 Jy at 2000,2000
+Iteration 1: 50.9925 Jy at 2000,2000
+Iteration 2: 45.8996 Jy at 2000,2000
+Iteration 3: 41.3153 Jy at 2000,2000
+Iteration 4: 37.1889 Jy at 2000,2000
+Iteration 5: 33.4746 Jy at 2000,2000
+Iteration 6: 30.1313 Jy at 2000,2000
+Iteration 7: 27.1219 Jy at 2000,2000
+Iteration 8: 24.4131 Jy at 2000,2000
+Iteration 9: 21.9748 Jy at 2000,2000
+Iteration 10: 19.7801 Jy at 2000,2000
+Iteration 20: 9.475 Jy at 2000,2000
+Iteration 30: 7.45876 Jy at 2244,1803
+Iteration 40: 6.32403 Jy at 3064,1514
+Iteration 50: 5.79005 Jy at 3526,2019
+Iteration 60: 5.3862 Jy at 3103,2283
+Iteration 70: 5.11104 Jy at 3261,1515
+Iteration 80: 4.84576 Jy at 1309,1967
+Iteration 90: 4.49117 Jy at 2001,2003
+Iteration 100: 4.34444 Jy at 2607,1618
+Iteration 200: 3.01064 Jy at 2540,2689
+Iteration 300: 2.37772 Jy at 1074,1744
+Iteration 400: 1.9816 Jy at 3573,2820
+Iteration 500: 1.73186 Jy at 2223,1876
+Iteration 600: 1.56063 Jy at 1263,1949
+Iteration 700: 1.42002 Jy at 1956,629
+Iteration 800: 1.31307 Jy at 2674,2165
+Iteration 900: 1.23011 Jy at 541,944
+Iteration 1000: 1.15017 Jy at 2081,2572
+Iteration 2000: 0.755295 Jy at 2373,2805
+Stopped on peak 0.689591
+Writing model image...
+1 major iterations were performed.
+Rendering 626 elliptical sources to restored image (beam=2.25'-2.79', PA=93.17 deg)... DONE
+Writing restored image... DONE
+Rendering 626 elliptical sources to restored image (beam=2.25'-2.79', PA=93.17 deg)... DONE
+Writing restored image... DONE
+Rendering 626 elliptical sources to restored image (beam=2.25'-2.79', PA=93.17 deg)... DONE
+Writing restored image... DONE
+Rendering 626 elliptical sources to restored image (beam=2.25'-2.79', PA=93.17 deg)... DONE
+Writing restored image... DONE
+Image buf alloc stats:
+         max alloc'd images = 43 real + 670 complex
+       max allocated chunks = 16
+      current allocated mem = 2.1 GB 
+Inversion: 00:04:20.771941, prediction: 00:00:00, deconvolution: 00:01:28.837675
+Cleaning up temporary files...
+Start time = Epoch: 57250::18:34:27.0000, end time = Epoch: 57250::18:36:15.0000
+Using mid time = Epoch: 57250::18:35:21.0000
+Central frequency of measurement set: 154.2 MHz.
+Delays: [15,11,7,3,14,10,6,2,13,9,5,1,12,8,4,0]
+Using frequency from fits file: 154.2 MHz.
+Zenith: 0.138519 RA, -26.7009 dec, 0 HA.
+Reference dir: -26.393 RA, -17.0267 dec.
+Loading ZA/PH values...
+Loading J lookup matrix for frequency (MHz) :
+  72.96 80.64 88.32 96 103.68 111.36 119.04 126.72 134.4 139.52 140.8 142.08 143.36 144.64 145.92 147.2 148.48 149.76 151.04 152.32 153.6 154.88 156.16 157.44 158.72 160 161.28 162.56 163.84 165.12 166.4 167.68 168.96 170.24 171.52 172.8 174.08 175.36 176.64 177.92 179.2 180.48 181.76 183.04 184.32 185.6 186.88 188.16 189.44 190.72 192 193.28 194.56 195.84 197.12 198.4 199.68 200.96 208.64 216.32 224 231.68 239.36 
+Loading impedance matrices for freq (MHz): 73 80.59999999999999 88.3 96 103.7 111.4 119 126.7 134.4 139.5 140.8 142.1 143.4 144.6 145.9 147.2 148.5 149.8 151 152.3 153.6 154.9 156.2 157.4 158.7 160 161.3 162.6 163.8 165.1 166.4 167.7 169 170.2 171.5 172.8 174.1 175.4 176.6 177.9 179.2 180.5 181.8 183 184.3 185.6 186.9 188.2 189.4 190.7 192 193.3 194.6 195.8 197.1 198.4 199.7 201 208.6 216.3 224 231.7 239.4 
+Frequency interpolation of beam is disabled.
+Constructing beam: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+
+Writing...
+Warning: file '1123785280_initcor-Q.fits' did not exist, assuming it is zero!
+Warning: file '1123785280_initcor-U.fits' did not exist, assuming it is zero!
+Warning: file '1123785280_initcor-V.fits' did not exist, assuming it is zero!
+
+WSClean version 1.10 (2015-12-12)
+This software package is released under the GPL version 3.
+Author: André Offringa (offringa@gmail.com).
+
+=== IMAGING TABLE ===
+       # Pol Ch JG ²G Freq(MHz)
+| Independent group:
++-+-J- 0 XX   0  0  0  139-170
+|
+|
+| Independent group:
++-+-J- 1 XY   0  1  1  139-170
+|
+|
+| Independent group:
++-+-J- 2 YX   0  2  2  139-170
+|
+|
+| Independent group:
++-+-J- 3 YY   0  3  3  139-170
+
+Reordering 1123785280.ms (231168 selected rows) into 1 x 4 parts.
+Reordering: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Initializing model visibilities: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Detected 63 GB of system memory, usage not limited.
+Reading 1123785280_initunc-XX-model.fits...
+Opening reordered part 0 spw 0 for 1123785280.ms
+Precalculating weights for Briggs'(-1) weighting... DONE
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 315/315 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+Image buf alloc stats:
+         max alloc'd images = 22 real + 355 complex
+       max allocated chunks = 366
+      current allocated mem = 21.8 GB 
+Inversion: 00:00:00, prediction: 00:01:19.138606, cleaning: 00:00:00
+Detected 63 GB of system memory, usage not limited.
+Reading 1123785280_initunc-XY-model.fits...
+Freed 366 image buffer(s).
+Reading 1123785280_initunc-XYi-model.fits...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 630/630 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+Image buf alloc stats:
+         max alloc'd images = 44 real + 670 complex
+       max allocated chunks = 692
+      current allocated mem = 41.2 GB 
+Inversion: 00:00:00, prediction: 00:02:41.929982, cleaning: 00:00:00
+Detected 63 GB of system memory, usage not limited.
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Freed 692 image buffer(s).
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 630/630 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+Image buf alloc stats:
+         max alloc'd images = 44 real + 670 complex
+       max allocated chunks = 692
+      current allocated mem = 41.2 GB 
+Inversion: 00:00:00, prediction: 00:04:08.033335, cleaning: 00:00:00
+Detected 63 GB of system memory, usage not limited.
+Reading 1123785280_initunc-YY-model.fits...
+Freed 692 image buffer(s).
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 315/315 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+Image buf alloc stats:
+         max alloc'd images = 44 real + 670 complex
+       max allocated chunks = 366
+      current allocated mem = 21.8 GB 
+Inversion: 00:00:00, prediction: 00:05:25.679164, cleaning: 00:00:00
+Adding model data column... DONE
+Writing changed model back to 1123785280.ms:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Cleaning up temporary files...
+Reading meta data... DONE
+Counting timesteps... DONE (28 timesteps, 1 intervals)
+ >>> INTERVAL 1 / 1 <<<
+Will use 20 cores.
+Detected 63 GB of system memory.
+One channel takes 34.7 MB of mem.
+Number of channels that fit in memory: 768 (1 passes)
+Reading data and model column...
+...........................DONE (208292/227584 rows selected)
+Calibrating...
+Current value of Jones matrix for ant 1, ch 1:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 1 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 0:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 0 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 16:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 16 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 4:
+ ((0.886471,-1.09041) (-0.0127483,0.0376322))	amplitudes=(1.40529 0.0397329) SV=	1.50713
+ ((0.00317098,0.0024903) (0.258299,-1.4806))	           (0.00403196 1.50297)    	1.40139
+Finished calibrating channel 4 in 27 iterations, precision=6.89353e-07.
+Current value of Jones matrix for ant 1, ch 2:
+ ((0.89105,-1.03831) (-0.0438368,-0.000100398))	amplitudes=(1.36823 0.0438369) SV=	1.51211
+ ((0.0362937,0.0667543) (0.281051,-1.46043))	           (0.0759827 1.48723)    	1.34355
+Finished calibrating channel 2 in 27 iterations, precision=7.2173e-07.
+Current value of Jones matrix for ant 1, ch 6:
+ ((0.966164,-1.08993) (-0.0253562,0.073472))	amplitudes=(1.45651 0.0777243) SV=	1.50104
+ ((0.0224387,-0.071177) (0.278518,-1.47036))	           (0.0746302 1.49651)    	1.45584
+Finished calibrating channel 6 in 27 iterations, precision=6.2241e-07.
+Current value of Jones matrix for ant 1, ch 5:
+ ((0.941328,-1.18501) (-0.0220937,-0.00909405))	amplitudes=(1.51339 0.0238921) SV=	1.59347
+ ((0.0692772,0.020262) (0.321153,-1.5313))	           (0.0721795 1.56461)    	1.48492
+Finished calibrating channel 5 in 27 iterations, precision=6.73165e-07.
+Current value of Jones matrix for ant 1, ch 10:
+ ((0.971874,-1.13182) (-0.0534625,0.0230487))	amplitudes=(1.49183 0.0582193) SV=	1.55101
+ ((-0.0483799,-0.0108876) (0.32954,-1.50051))	           (0.0495899 1.53627)    	1.47848
+Finished calibrating channel 10 in 27 iterations, precision=7.03545e-07.
+Current value of Jones matrix for ant 1, ch 7:
+ ((0.939982,-1.0665) (0.0018912,0.00386329))	amplitudes=(1.42162 0.00430135) SV=	1.5185
+ ((0.0338932,0.0298712) (0.342407,-1.47437))	           (0.0451778 1.51361)    	1.41712
+Finished calibrating channel 7 in 27 iterations, precision=6.32777e-07.
+Current value of Jones matrix for ant 1, ch 8:
+ ((0.955154,-1.10781) (-0.0357551,0.0392947))	amplitudes=(1.46272 0.0531272) SV=	1.60107
+ ((-0.0257594,0.0577113) (0.283257,-1.55137))	           (0.0631992 1.57702)    	1.43872
+Finished calibrating channel 8 in 27 iterations, precision=6.83811e-07.
+Finished calibrating channel 18 in 27 iterations, precision=6.7363e-07.
+Finished calibrating channel 20 in 27 iterations, precision=7.38952e-07.
+Finished calibrating channel 21 in 27 iterations, precision=7.33001e-07.
+Finished calibrating channel 31 in 1 iterations, precision=0.
+Finished calibrating channel 30 in 1 iterations, precision=0.
+Finished calibrating channel 32 in 1 iterations, precision=0.
+Finished calibrating channel 33 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 3:
+ ((0.943528,-1.11943) (-0.0162688,0.00864278))	amplitudes=(1.46402 0.018422) SV=	1.50623
+ ((0.00947479,0.0301801) (0.291583,-1.46264))	           (0.0316324 1.49142)    	1.44924
+Finished calibrating channel 3 in 27 iterations, precision=7.56367e-07.
+Finished calibrating channel 19 in 27 iterations, precision=7.07977e-07.
+Current value of Jones matrix for ant 1, ch 11:
+ ((1.01469,-1.13328) (-0.0537739,0.0123756))	amplitudes=(1.52116 0.0551796) SV=	1.60207
+ ((0.0482517,0.0137906) (0.302886,-1.54423))	           (0.0501838 1.57365)    	1.49307
+Finished calibrating channel 11 in 27 iterations, precision=6.79444e-07.
+Current value of Jones matrix for ant 1, ch 14:
+ ((0.96097,-1.07022) (0.0779446,-0.0218398))	amplitudes=(1.43834 0.0809465) SV=	1.5593
+ ((-0.00268125,0.0454855) (0.346884,-1.51498))	           (0.0455645 1.55419)    	1.4358
+Finished calibrating channel 14 in 27 iterations, precision=6.36471e-07.
+Current value of Jones matrix for ant 1, ch 13:
+ ((0.994889,-1.04385) (0.00577854,0.0492319))	amplitudes=(1.44202 0.0495699) SV=	1.58648
+ ((0.0215833,0.0242951) (0.317632,-1.54912))	           (0.0324975 1.58134)    	1.43759
+Finished calibrating channel 13 in 27 iterations, precision=7.85633e-07.
+Current value of Jones matrix for ant 1, ch 12:
+ ((0.968947,-1.10102) (-0.025321,0.0624084))	amplitudes=(1.46667 0.0673496) SV=	1.62378
+ ((-0.0281429,-0.0140904) (0.378026,-1.56892))	           (0.0314732 1.61382)    	1.45753
+Finished calibrating channel 12 in 27 iterations, precision=6.84754e-07.
+Finished calibrating channel 22 in 27 iterations, precision=7.66647e-07.
+Finished calibrating channel 17 in 27 iterations, precision=6.432e-07.
+Current value of Jones matrix for ant 1, ch 15:
+ ((1.00254,-1.15476) (-0.0181505,-0.00283871))	amplitudes=(1.52923 0.0183712) SV=	1.54704
+ ((-0.00837582,-0.00384241) (0.315272,-1.51304))	           (0.00921512 1.54554)    	1.52785
+Finished calibrating channel 15 in 27 iterations, precision=7.29602e-07.
+Current value of Jones matrix for ant 1, ch 9:
+ ((0.942382,-1.08921) (-0.0130892,0.00862237))	amplitudes=(1.4403 0.0156739) SV=	1.57088
+ ((0.0183979,0.00790263) (0.34597,-1.53046))	           (0.0200233 1.56907)    	1.43856
+Finished calibrating channel 9 in 27 iterations, precision=6.16346e-07.
+Finished calibrating channel 23 in 18 iterations, precision=7.64056e-07.
+Finished calibrating channel 26 in 18 iterations, precision=8.93703e-07.
+Finished calibrating channel 48 in 1 iterations, precision=0.
+Finished calibrating channel 28 in 18 iterations, precision=8.43558e-07.
+Finished calibrating channel 24 in 18 iterations, precision=8.35082e-07.
+Finished calibrating channel 38 in 18 iterations, precision=6.84668e-07.
+Finished calibrating channel 29 in 18 iterations, precision=7.91634e-07.
+Finished calibrating channel 27 in 19 iterations, precision=8.67403e-07.
+Finished calibrating channel 25 in 18 iterations, precision=7.52424e-07.
+Finished calibrating channel 41 in 18 iterations, precision=7.38216e-07.
+Finished calibrating channel 44 in 18 iterations, precision=8.87622e-07.
+Finished calibrating channel 37 in 18 iterations, precision=9.54542e-07.
+Finished calibrating channel 34 in 27 iterations, precision=7.33485e-07.
+Finished calibrating channel 39 in 18 iterations, precision=7.81629e-07.
+Finished calibrating channel 47 in 18 iterations, precision=7.04468e-07.
+Finished calibrating channel 42 in 18 iterations, precision=7.64136e-07.
+Finished calibrating channel 50 in 18 iterations, precision=7.26412e-07.
+Finished calibrating channel 43 in 18 iterations, precision=6.09194e-07.
+Finished calibrating channel 40 in 19 iterations, precision=8.46336e-07.
+Finished calibrating channel 46 in 18 iterations, precision=8.43367e-07.
+Finished calibrating channel 64 in 1 iterations, precision=0.
+Finished calibrating channel 63 in 1 iterations, precision=0.
+Finished calibrating channel 62 in 1 iterations, precision=0.
+Finished calibrating channel 65 in 1 iterations, precision=0.
+Finished calibrating channel 45 in 18 iterations, precision=7.37501e-07.
+Finished calibrating channel 51 in 18 iterations, precision=9.30835e-07.
+Finished calibrating channel 36 in 27 iterations, precision=6.3713e-07.
+Finished calibrating channel 35 in 27 iterations, precision=6.65924e-07.
+Finished calibrating channel 55 in 19 iterations, precision=6.16826e-07.
+Finished calibrating channel 52 in 18 iterations, precision=9.01461e-07.
+Finished calibrating channel 54 in 18 iterations, precision=8.65832e-07.
+Finished calibrating channel 53 in 18 iterations, precision=8.08275e-07.
+Finished calibrating channel 56 in 18 iterations, precision=8.05571e-07.
+Finished calibrating channel 49 in 27 iterations, precision=7.68937e-07.
+Finished calibrating channel 58 in 18 iterations, precision=7.76396e-07.
+Finished calibrating channel 80 in 1 iterations, precision=0.
+Finished calibrating channel 57 in 18 iterations, precision=6.16321e-07.
+Finished calibrating channel 60 in 18 iterations, precision=7.36894e-07.
+Finished calibrating channel 59 in 18 iterations, precision=8.58891e-07.
+Finished calibrating channel 73 in 18 iterations, precision=8.52743e-07.
+Finished calibrating channel 61 in 18 iterations, precision=5.92953e-07.
+Finished calibrating channel 71 in 18 iterations, precision=8.70872e-07.
+Finished calibrating channel 72 in 18 iterations, precision=7.01929e-07.
+Finished calibrating channel 66 in 18 iterations, precision=9.43617e-07.
+Finished calibrating channel 74 in 18 iterations, precision=9.8752e-07.
+Finished calibrating channel 68 in 27 iterations, precision=7.93075e-07.
+Finished calibrating channel 75 in 18 iterations, precision=7.02036e-07.
+Finished calibrating channel 85 in 18 iterations, precision=7.95862e-07.
+Finished calibrating channel 77 in 18 iterations, precision=7.0099e-07.
+Finished calibrating channel 94 in 1 iterations, precision=0.
+Finished calibrating channel 81 in 18 iterations, precision=6.87464e-07.
+Finished calibrating channel 95 in 1 iterations, precision=0.
+Finished calibrating channel 84 in 18 iterations, precision=8.07559e-07.
+Finished calibrating channel 96 in 1 iterations, precision=0.
+Finished calibrating channel 97 in 1 iterations, precision=0.
+Finished calibrating channel 76 in 18 iterations, precision=7.15463e-07.
+Finished calibrating channel 83 in 18 iterations, precision=6.90089e-07.
+Finished calibrating channel 67 in 27 iterations, precision=9.2364e-07.
+Finished calibrating channel 78 in 18 iterations, precision=7.84946e-07.
+Finished calibrating channel 70 in 27 iterations, precision=8.05012e-07.
+Finished calibrating channel 87 in 18 iterations, precision=7.25799e-07.
+Finished calibrating channel 86 in 17 iterations, precision=9.81713e-07.
+Finished calibrating channel 89 in 18 iterations, precision=7.66409e-07.
+Finished calibrating channel 69 in 27 iterations, precision=8.25429e-07.
+Finished calibrating channel 91 in 18 iterations, precision=6.50777e-07.
+Finished calibrating channel 88 in 18 iterations, precision=7.57628e-07.
+Finished calibrating channel 92 in 18 iterations, precision=8.26325e-07.
+Finished calibrating channel 112 in 1 iterations, precision=0.
+Finished calibrating channel 82 in 27 iterations, precision=8.82334e-07.
+Finished calibrating channel 79 in 18 iterations, precision=8.01591e-07.
+Finished calibrating channel 90 in 18 iterations, precision=8.03282e-07.
+Finished calibrating channel 102 in 18 iterations, precision=7.78736e-07.
+Finished calibrating channel 103 in 17 iterations, precision=9.44216e-07.
+Finished calibrating channel 105 in 18 iterations, precision=7.4361e-07.
+Finished calibrating channel 99 in 17 iterations, precision=9.81891e-07.
+Finished calibrating channel 93 in 18 iterations, precision=8.90771e-07.
+Finished calibrating channel 107 in 18 iterations, precision=7.07095e-07.
+Finished calibrating channel 109 in 18 iterations, precision=8.13985e-07.
+Finished calibrating channel 104 in 18 iterations, precision=9.52641e-07.
+Finished calibrating channel 106 in 18 iterations, precision=8.67033e-07.
+Finished calibrating channel 126 in 1 iterations, precision=0.
+Finished calibrating channel 108 in 18 iterations, precision=6.86564e-07.
+Finished calibrating channel 127 in 1 iterations, precision=0.
+Finished calibrating channel 111 in 18 iterations, precision=6.85445e-07.
+Finished calibrating channel 128 in 1 iterations, precision=0.
+Finished calibrating channel 129 in 1 iterations, precision=0.
+Finished calibrating channel 101 in 27 iterations, precision=9.1045e-07.
+Finished calibrating channel 110 in 18 iterations, precision=6.97831e-07.
+Finished calibrating channel 117 in 18 iterations, precision=7.84088e-07.
+Finished calibrating channel 113 in 18 iterations, precision=7.44691e-07.
+Finished calibrating channel 115 in 18 iterations, precision=7.90029e-07.
+Finished calibrating channel 100 in 27 iterations, precision=8.80347e-07.
+Finished calibrating channel 98 in 27 iterations, precision=8.97677e-07.
+Finished calibrating channel 116 in 18 iterations, precision=8.66397e-07.
+Finished calibrating channel 118 in 18 iterations, precision=6.6047e-07.
+Finished calibrating channel 120 in 17 iterations, precision=9.61218e-07.
+Finished calibrating channel 122 in 18 iterations, precision=7.32706e-07.
+Finished calibrating channel 114 in 27 iterations, precision=7.77047e-07.
+Finished calibrating channel 119 in 18 iterations, precision=7.17401e-07.
+Finished calibrating channel 123 in 18 iterations, precision=8.15945e-07.
+Finished calibrating channel 144 in 1 iterations, precision=0.
+Finished calibrating channel 125 in 18 iterations, precision=8.40404e-07.
+Finished calibrating channel 124 in 18 iterations, precision=6.11087e-07.
+Finished calibrating channel 121 in 18 iterations, precision=6.92997e-07.
+Finished calibrating channel 130 in 18 iterations, precision=8.90856e-07.
+Finished calibrating channel 133 in 18 iterations, precision=8.1581e-07.
+Finished calibrating channel 138 in 18 iterations, precision=8.86338e-07.
+Finished calibrating channel 137 in 18 iterations, precision=8.71079e-07.
+Finished calibrating channel 139 in 18 iterations, precision=7.60866e-07.
+Finished calibrating channel 136 in 18 iterations, precision=8.5212e-07.
+Finished calibrating channel 143 in 18 iterations, precision=7.71923e-07.
+Finished calibrating channel 146 in 18 iterations, precision=7.96672e-07.
+Finished calibrating channel 135 in 18 iterations, precision=8.93142e-07.
+Finished calibrating channel 158 in 1 iterations, precision=0.
+Finished calibrating channel 140 in 18 iterations, precision=7.39831e-07.
+Finished calibrating channel 145 in 18 iterations, precision=9.15956e-07.
+Finished calibrating channel 134 in 18 iterations, precision=7.85469e-07.
+Finished calibrating channel 159 in 1 iterations, precision=0.
+Finished calibrating channel 131 in 27 iterations, precision=7.62818e-07.
+Finished calibrating channel 160 in 1 iterations, precision=0.
+Finished calibrating channel 142 in 18 iterations, precision=7.61785e-07.
+Finished calibrating channel 161 in 1 iterations, precision=0.
+Finished calibrating channel 141 in 18 iterations, precision=9.3704e-07.
+Finished calibrating channel 148 in 18 iterations, precision=7.78374e-07.
+Finished calibrating channel 151 in 18 iterations, precision=7.60526e-07.
+Finished calibrating channel 132 in 27 iterations, precision=7.02585e-07.
+Finished calibrating channel 149 in 18 iterations, precision=7.9521e-07.
+Finished calibrating channel 150 in 18 iterations, precision=8.44605e-07.
+Finished calibrating channel 152 in 18 iterations, precision=6.031e-07.
+Finished calibrating channel 153 in 18 iterations, precision=9.01139e-07.
+Finished calibrating channel 156 in 18 iterations, precision=7.34267e-07.
+Finished calibrating channel 176 in 1 iterations, precision=0.
+Finished calibrating channel 155 in 18 iterations, precision=9.12651e-07.
+Finished calibrating channel 147 in 27 iterations, precision=7.72618e-07.
+Finished calibrating channel 154 in 18 iterations, precision=7.08735e-07.
+Finished calibrating channel 171 in 18 iterations, precision=8.14599e-07.
+Finished calibrating channel 169 in 18 iterations, precision=9.18375e-07.
+Finished calibrating channel 157 in 18 iterations, precision=8.42873e-07.
+Finished calibrating channel 162 in 18 iterations, precision=9.12364e-07.
+Finished calibrating channel 170 in 18 iterations, precision=7.72063e-07.
+Finished calibrating channel 167 in 18 iterations, precision=8.75449e-07.
+Finished calibrating channel 165 in 19 iterations, precision=6.219e-07.
+Finished calibrating channel 163 in 18 iterations, precision=8.07508e-07.
+Finished calibrating channel 174 in 18 iterations, precision=7.09144e-07.
+Finished calibrating channel 173 in 18 iterations, precision=8.88998e-07.
+Finished calibrating channel 175 in 18 iterations, precision=8.42428e-07.
+Finished calibrating channel 191 in 1 iterations, precision=0.
+Finished calibrating channel 190 in 1 iterations, precision=0.
+Finished calibrating channel 166 in 27 iterations, precision=8.17576e-07.
+Finished calibrating channel 192 in 1 iterations, precision=0.
+Finished calibrating channel 193 in 1 iterations, precision=0.
+Finished calibrating channel 177 in 18 iterations, precision=8.92753e-07.
+Finished calibrating channel 168 in 27 iterations, precision=7.58705e-07.
+Finished calibrating channel 164 in 27 iterations, precision=7.89481e-07.
+Finished calibrating channel 172 in 18 iterations, precision=9.25433e-07.
+Finished calibrating channel 188 in 18 iterations, precision=8.24199e-07.
+Finished calibrating channel 183 in 17 iterations, precision=9.60099e-07.
+Finished calibrating channel 180 in 18 iterations, precision=9.57789e-07.
+Finished calibrating channel 185 in 18 iterations, precision=9.95919e-07.
+Finished calibrating channel 182 in 17 iterations, precision=9.97869e-07.
+Finished calibrating channel 181 in 18 iterations, precision=8.0663e-07.
+Finished calibrating channel 187 in 18 iterations, precision=6.13736e-07.
+Finished calibrating channel 179 in 18 iterations, precision=6.64047e-07.
+Finished calibrating channel 186 in 18 iterations, precision=6.80897e-07.
+Finished calibrating channel 208 in 1 iterations, precision=0.
+Finished calibrating channel 184 in 18 iterations, precision=8.43152e-07.
+Finished calibrating channel 189 in 18 iterations, precision=8.05948e-07.
+Finished calibrating channel 195 in 18 iterations, precision=8.77109e-07.
+Finished calibrating channel 178 in 27 iterations, precision=8.30408e-07.
+Finished calibrating channel 198 in 18 iterations, precision=7.32776e-07.
+Finished calibrating channel 199 in 18 iterations, precision=8.95166e-07.
+Finished calibrating channel 197 in 27 iterations, precision=7.99789e-07.
+Finished calibrating channel 201 in 18 iterations, precision=7.7901e-07.
+Finished calibrating channel 196 in 27 iterations, precision=7.20376e-07.
+Finished calibrating channel 205 in 18 iterations, precision=7.45148e-07.
+Finished calibrating channel 207 in 18 iterations, precision=8.60009e-07.
+Finished calibrating channel 210 in 18 iterations, precision=7.65728e-07.
+Finished calibrating channel 202 in 18 iterations, precision=6.43501e-07.
+Finished calibrating channel 222 in 1 iterations, precision=0.
+Finished calibrating channel 194 in 27 iterations, precision=8.19632e-07.
+Finished calibrating channel 200 in 18 iterations, precision=9.77888e-07.
+Finished calibrating channel 224 in 1 iterations, precision=0.
+Finished calibrating channel 225 in 1 iterations, precision=0.
+Finished calibrating channel 223 in 1 iterations, precision=0.
+Finished calibrating channel 203 in 18 iterations, precision=7.10513e-07.
+Finished calibrating channel 206 in 18 iterations, precision=7.24297e-07.
+Finished calibrating channel 204 in 18 iterations, precision=8.1548e-07.
+Finished calibrating channel 212 in 18 iterations, precision=7.92025e-07.
+Finished calibrating channel 214 in 18 iterations, precision=6.99267e-07.
+Finished calibrating channel 215 in 18 iterations, precision=8.85825e-07.
+Finished calibrating channel 213 in 18 iterations, precision=8.13476e-07.
+Finished calibrating channel 209 in 18 iterations, precision=7.92683e-07.
+Finished calibrating channel 216 in 18 iterations, precision=7.29515e-07.
+Finished calibrating channel 219 in 18 iterations, precision=8.89824e-07.
+Finished calibrating channel 232 in 18 iterations, precision=7.74998e-07.
+Finished calibrating channel 211 in 28 iterations, precision=6.33331e-07.
+Finished calibrating channel 240 in 1 iterations, precision=0.
+Finished calibrating channel 227 in 18 iterations, precision=8.00881e-07.
+Finished calibrating channel 217 in 18 iterations, precision=8.67027e-07.
+Finished calibrating channel 220 in 18 iterations, precision=7.94844e-07.
+Finished calibrating channel 221 in 18 iterations, precision=6.63119e-07.
+Finished calibrating channel 218 in 18 iterations, precision=7.74776e-07.
+Finished calibrating channel 231 in 18 iterations, precision=9.5244e-07.
+Finished calibrating channel 233 in 18 iterations, precision=9.26142e-07.
+Finished calibrating channel 234 in 18 iterations, precision=8.11546e-07.
+Finished calibrating channel 236 in 18 iterations, precision=8.16327e-07.
+Finished calibrating channel 226 in 18 iterations, precision=9.46903e-07.
+Finished calibrating channel 235 in 18 iterations, precision=7.30581e-07.
+Finished calibrating channel 254 in 1 iterations, precision=0.
+Finished calibrating channel 255 in 1 iterations, precision=0.
+Finished calibrating channel 256 in 1 iterations, precision=0.
+Finished calibrating channel 228 in 27 iterations, precision=7.46722e-07.
+Finished calibrating channel 237 in 18 iterations, precision=7.17154e-07.
+Finished calibrating channel 229 in 27 iterations, precision=7.15852e-07.
+Finished calibrating channel 257 in 1 iterations, precision=0.
+Finished calibrating channel 238 in 18 iterations, precision=9.53535e-07.
+Finished calibrating channel 239 in 18 iterations, precision=6.80169e-07.
+Finished calibrating channel 242 in 18 iterations, precision=9.35008e-07.
+Finished calibrating channel 248 in 18 iterations, precision=9.96472e-07.
+Finished calibrating channel 230 in 27 iterations, precision=7.79253e-07.
+Finished calibrating channel 241 in 18 iterations, precision=7.8017e-07.
+Finished calibrating channel 244 in 18 iterations, precision=6.70259e-07.
+Finished calibrating channel 249 in 18 iterations, precision=7.8636e-07.
+Finished calibrating channel 250 in 18 iterations, precision=7.93618e-07.
+Finished calibrating channel 252 in 18 iterations, precision=7.17682e-07.
+Finished calibrating channel 245 in 18 iterations, precision=9.70929e-07.
+Finished calibrating channel 247 in 19 iterations, precision=6.19804e-07.
+Finished calibrating channel 272 in 1 iterations, precision=0.
+Finished calibrating channel 251 in 18 iterations, precision=6.41547e-07.
+Finished calibrating channel 246 in 18 iterations, precision=9.54192e-07.
+Finished calibrating channel 259 in 18 iterations, precision=8.46552e-07.
+Finished calibrating channel 253 in 19 iterations, precision=6.34516e-07.
+Finished calibrating channel 258 in 19 iterations, precision=5.92831e-07.
+Finished calibrating channel 243 in 27 iterations, precision=7.92017e-07.
+Finished calibrating channel 260 in 18 iterations, precision=9.62908e-07.
+Finished calibrating channel 262 in 18 iterations, precision=9.3865e-07.
+Finished calibrating channel 263 in 18 iterations, precision=8.0394e-07.
+Finished calibrating channel 267 in 18 iterations, precision=7.66943e-07.
+Finished calibrating channel 265 in 18 iterations, precision=7.19137e-07.
+Finished calibrating channel 269 in 18 iterations, precision=6.16655e-07.
+Finished calibrating channel 268 in 18 iterations, precision=8.95357e-07.
+Finished calibrating channel 286 in 1 iterations, precision=0.
+Finished calibrating channel 264 in 18 iterations, precision=7.22694e-07.
+Finished calibrating channel 287 in 1 iterations, precision=0.
+Finished calibrating channel 288 in 1 iterations, precision=0.
+Finished calibrating channel 289 in 1 iterations, precision=0.
+Finished calibrating channel 261 in 27 iterations, precision=7.54728e-07.
+Finished calibrating channel 273 in 18 iterations, precision=8.49029e-07.
+Finished calibrating channel 266 in 19 iterations, precision=5.89463e-07.
+Finished calibrating channel 276 in 18 iterations, precision=9.16983e-07.
+Finished calibrating channel 271 in 18 iterations, precision=8.97575e-07.
+Finished calibrating channel 275 in 18 iterations, precision=8.16117e-07.
+Finished calibrating channel 279 in 18 iterations, precision=7.84929e-07.
+Finished calibrating channel 277 in 18 iterations, precision=8.62546e-07.
+Finished calibrating channel 270 in 18 iterations, precision=8.10026e-07.
+Finished calibrating channel 281 in 18 iterations, precision=8.00063e-07.
+Finished calibrating channel 280 in 18 iterations, precision=9.50734e-07.
+Finished calibrating channel 278 in 18 iterations, precision=8.41203e-07.
+Finished calibrating channel 284 in 18 iterations, precision=7.60009e-07.
+Finished calibrating channel 304 in 1 iterations, precision=0.
+Finished calibrating channel 282 in 18 iterations, precision=9.54091e-07.
+Finished calibrating channel 274 in 27 iterations, precision=6.53063e-07.
+Finished calibrating channel 283 in 19 iterations, precision=6.37292e-07.
+Finished calibrating channel 293 in 20 iterations, precision=7.32053e-07.
+Finished calibrating channel 296 in 18 iterations, precision=6.39333e-07.
+Finished calibrating channel 294 in 18 iterations, precision=7.197e-07.
+Finished calibrating channel 285 in 19 iterations, precision=9.14146e-07.
+Finished calibrating channel 295 in 18 iterations, precision=7.99057e-07.
+Finished calibrating channel 298 in 18 iterations, precision=7.50597e-07.
+Finished calibrating channel 299 in 18 iterations, precision=7.70151e-07.
+Finished calibrating channel 300 in 18 iterations, precision=7.0114e-07.
+Finished calibrating channel 290 in 27 iterations, precision=7.11945e-07.
+Finished calibrating channel 318 in 1 iterations, precision=0.
+Finished calibrating channel 291 in 27 iterations, precision=6.82022e-07.
+Finished calibrating channel 319 in 1 iterations, precision=0.
+Finished calibrating channel 297 in 18 iterations, precision=7.78784e-07.
+Finished calibrating channel 320 in 1 iterations, precision=0.
+Finished calibrating channel 301 in 18 iterations, precision=8.1575e-07.
+Finished calibrating channel 321 in 1 iterations, precision=0.
+Finished calibrating channel 305 in 18 iterations, precision=8.34378e-07.
+Finished calibrating channel 302 in 18 iterations, precision=6.5809e-07.
+Finished calibrating channel 292 in 27 iterations, precision=6.60828e-07.
+Finished calibrating channel 310 in 18 iterations, precision=8.06626e-07.
+Finished calibrating channel 311 in 17 iterations, precision=9.73218e-07.
+Finished calibrating channel 303 in 18 iterations, precision=6.78453e-07.
+Finished calibrating channel 309 in 18 iterations, precision=8.72222e-07.
+Finished calibrating channel 312 in 19 iterations, precision=9.91634e-07.
+Finished calibrating channel 308 in 18 iterations, precision=9.00348e-07.
+Finished calibrating channel 306 in 27 iterations, precision=6.65619e-07.
+Finished calibrating channel 313 in 19 iterations, precision=6.26103e-07.
+Finished calibrating channel 336 in 1 iterations, precision=0.
+Finished calibrating channel 314 in 18 iterations, precision=8.17199e-07.
+Finished calibrating channel 307 in 18 iterations, precision=8.10562e-07.
+Finished calibrating channel 317 in 18 iterations, precision=7.21334e-07.
+Finished calibrating channel 322 in 19 iterations, precision=7.02895e-07.
+Finished calibrating channel 324 in 18 iterations, precision=7.9455e-07.
+Finished calibrating channel 316 in 18 iterations, precision=6.64429e-07.
+Finished calibrating channel 327 in 18 iterations, precision=9.63865e-07.
+Finished calibrating channel 315 in 18 iterations, precision=7.3695e-07.
+Finished calibrating channel 326 in 18 iterations, precision=8.81424e-07.
+Finished calibrating channel 328 in 18 iterations, precision=9.51924e-07.
+Finished calibrating channel 329 in 18 iterations, precision=7.9058e-07.
+Finished calibrating channel 332 in 18 iterations, precision=9.32466e-07.
+Finished calibrating channel 330 in 18 iterations, precision=6.51846e-07.
+Finished calibrating channel 323 in 26 iterations, precision=9.09e-07.
+Finished calibrating channel 350 in 1 iterations, precision=0.
+Finished calibrating channel 351 in 1 iterations, precision=0.
+Finished calibrating channel 352 in 1 iterations, precision=0.
+Finished calibrating channel 331 in 19 iterations, precision=5.94218e-07.
+Finished calibrating channel 353 in 1 iterations, precision=0.
+Finished calibrating channel 333 in 19 iterations, precision=6.30359e-07.
+Finished calibrating channel 325 in 27 iterations, precision=6.07854e-07.
+Finished calibrating channel 334 in 18 iterations, precision=8.61645e-07.
+Finished calibrating channel 340 in 18 iterations, precision=8.73286e-07.
+Finished calibrating channel 341 in 18 iterations, precision=8.10927e-07.
+Finished calibrating channel 339 in 18 iterations, precision=8.31353e-07.
+Finished calibrating channel 344 in 18 iterations, precision=6.42014e-07.
+Finished calibrating channel 346 in 18 iterations, precision=8.7846e-07.
+Finished calibrating channel 338 in 18 iterations, precision=9.221e-07.
+Finished calibrating channel 343 in 18 iterations, precision=7.92062e-07.
+Finished calibrating channel 335 in 18 iterations, precision=9.68324e-07.
+Finished calibrating channel 345 in 18 iterations, precision=8.68736e-07.
+Finished calibrating channel 342 in 18 iterations, precision=7.41544e-07.
+Finished calibrating channel 368 in 1 iterations, precision=0.
+Finished calibrating channel 337 in 27 iterations, precision=6.36225e-07.
+Finished calibrating channel 348 in 18 iterations, precision=7.90855e-07.
+Finished calibrating channel 347 in 18 iterations, precision=6.83632e-07.
+Finished calibrating channel 349 in 18 iterations, precision=7.39471e-07.
+Finished calibrating channel 357 in 18 iterations, precision=8.04772e-07.
+Finished calibrating channel 355 in 18 iterations, precision=8.62809e-07.
+Finished calibrating channel 358 in 18 iterations, precision=8.29095e-07.
+Finished calibrating channel 354 in 26 iterations, precision=9.65899e-07.
+Finished calibrating channel 363 in 18 iterations, precision=6.32616e-07.
+Finished calibrating channel 366 in 18 iterations, precision=7.50401e-07.
+Finished calibrating channel 359 in 18 iterations, precision=7.56743e-07.
+Finished calibrating channel 356 in 26 iterations, precision=9.62397e-07.
+Finished calibrating channel 367 in 18 iterations, precision=7.91062e-07.
+Finished calibrating channel 360 in 18 iterations, precision=6.86095e-07.
+Finished calibrating channel 362 in 18 iterations, precision=6.75586e-07.
+Finished calibrating channel 382 in 1 iterations, precision=0.
+Finished calibrating channel 384 in 1 iterations, precision=0.
+Finished calibrating channel 383 in 1 iterations, precision=0.
+Finished calibrating channel 364 in 18 iterations, precision=6.4622e-07.
+Finished calibrating channel 371 in 18 iterations, precision=9.13717e-07.
+Finished calibrating channel 385 in 1 iterations, precision=0.
+Finished calibrating channel 361 in 18 iterations, precision=7.15636e-07.
+Finished calibrating channel 372 in 18 iterations, precision=7.97506e-07.
+Finished calibrating channel 369 in 18 iterations, precision=7.89018e-07.
+Finished calibrating channel 374 in 18 iterations, precision=7.41302e-07.
+Finished calibrating channel 365 in 18 iterations, precision=7.37091e-07.
+Finished calibrating channel 373 in 18 iterations, precision=7.58077e-07.
+Finished calibrating channel 375 in 18 iterations, precision=8.37026e-07.
+Finished calibrating channel 376 in 18 iterations, precision=6.71921e-07.
+Finished calibrating channel 380 in 17 iterations, precision=9.74019e-07.
+Finished calibrating channel 378 in 18 iterations, precision=7.60836e-07.
+Finished calibrating channel 400 in 1 iterations, precision=0.
+Finished calibrating channel 377 in 18 iterations, precision=6.25647e-07.
+Finished calibrating channel 379 in 18 iterations, precision=6.88609e-07.
+Finished calibrating channel 390 in 18 iterations, precision=6.28249e-07.
+Finished calibrating channel 389 in 18 iterations, precision=7.00854e-07.
+Finished calibrating channel 381 in 18 iterations, precision=6.31688e-07.
+Finished calibrating channel 370 in 26 iterations, precision=9.96464e-07.
+Finished calibrating channel 393 in 18 iterations, precision=7.0502e-07.
+Finished calibrating channel 392 in 18 iterations, precision=7.61057e-07.
+Finished calibrating channel 394 in 18 iterations, precision=7.25713e-07.
+Finished calibrating channel 395 in 18 iterations, precision=6.60352e-07.
+Finished calibrating channel 388 in 27 iterations, precision=6.8297e-07.
+Finished calibrating channel 398 in 18 iterations, precision=7.22559e-07.
+Finished calibrating channel 386 in 27 iterations, precision=6.39201e-07.
+Finished calibrating channel 414 in 1 iterations, precision=0.
+Finished calibrating channel 391 in 27 iterations, precision=6.48989e-07.
+Finished calibrating channel 401 in 18 iterations, precision=7.42749e-07.
+Finished calibrating channel 415 in 1 iterations, precision=0.
+Finished calibrating channel 416 in 1 iterations, precision=0.
+Finished calibrating channel 399 in 18 iterations, precision=5.84879e-07.
+Finished calibrating channel 417 in 1 iterations, precision=0.
+Finished calibrating channel 387 in 26 iterations, precision=9.65979e-07.
+Finished calibrating channel 396 in 18 iterations, precision=7.83595e-07.
+Finished calibrating channel 403 in 18 iterations, precision=6.82803e-07.
+Finished calibrating channel 405 in 17 iterations, precision=9.90049e-07.
+Finished calibrating channel 397 in 18 iterations, precision=7.54876e-07.
+Finished calibrating channel 406 in 18 iterations, precision=6.8856e-07.
+Finished calibrating channel 410 in 17 iterations, precision=9.46559e-07.
+Finished calibrating channel 404 in 18 iterations, precision=7.51567e-07.
+Finished calibrating channel 409 in 17 iterations, precision=9.68759e-07.
+Finished calibrating channel 408 in 18 iterations, precision=8.25365e-07.
+Finished calibrating channel 412 in 17 iterations, precision=9.70931e-07.
+Finished calibrating channel 432 in 1 iterations, precision=0.
+Finished calibrating channel 407 in 18 iterations, precision=8.50032e-07.
+Finished calibrating channel 413 in 18 iterations, precision=8.60525e-07.
+Finished calibrating channel 411 in 17 iterations, precision=9.12493e-07.
+Finished calibrating channel 402 in 27 iterations, precision=6.53396e-07.
+Finished calibrating channel 418 in 18 iterations, precision=8.73891e-07.
+Finished calibrating channel 421 in 17 iterations, precision=8.58912e-07.
+Finished calibrating channel 425 in 17 iterations, precision=8.98068e-07.
+Finished calibrating channel 428 in 18 iterations, precision=6.2594e-07.
+Finished calibrating channel 429 in 17 iterations, precision=9.6036e-07.
+Finished calibrating channel 427 in 18 iterations, precision=6.65972e-07.
+Finished calibrating channel 420 in 26 iterations, precision=9.7925e-07.
+Finished calibrating channel 424 in 18 iterations, precision=6.62261e-07.
+Finished calibrating channel 423 in 18 iterations, precision=7.51017e-07.
+Finished calibrating channel 419 in 26 iterations, precision=9.00273e-07.
+Finished calibrating channel 431 in 17 iterations, precision=9.16359e-07.
+Finished calibrating channel 447 in 1 iterations, precision=0.
+Finished calibrating channel 430 in 18 iterations, precision=6.39533e-07.
+Finished calibrating channel 448 in 1 iterations, precision=0.
+Finished calibrating channel 446 in 1 iterations, precision=0.
+Finished calibrating channel 449 in 1 iterations, precision=0.
+Finished calibrating channel 426 in 18 iterations, precision=6.38369e-07.
+Finished calibrating channel 435 in 18 iterations, precision=7.17396e-07.
+Finished calibrating channel 422 in 26 iterations, precision=9.29151e-07.
+Finished calibrating channel 433 in 18 iterations, precision=6.55951e-07.
+Finished calibrating channel 438 in 18 iterations, precision=8.27619e-07.
+Finished calibrating channel 439 in 18 iterations, precision=6.27729e-07.
+Finished calibrating channel 441 in 17 iterations, precision=8.51202e-07.
+Finished calibrating channel 437 in 18 iterations, precision=7.62043e-07.
+Finished calibrating channel 436 in 18 iterations, precision=8.46101e-07.
+Finished calibrating channel 444 in 18 iterations, precision=6.15887e-07.
+Finished calibrating channel 443 in 17 iterations, precision=8.76549e-07.
+Finished calibrating channel 464 in 1 iterations, precision=0.
+Finished calibrating channel 434 in 27 iterations, precision=7.29981e-07.
+Finished calibrating channel 442 in 17 iterations, precision=9.54422e-07.
+Finished calibrating channel 451 in 18 iterations, precision=6.63492e-07.
+Finished calibrating channel 440 in 18 iterations, precision=6.64602e-07.
+Finished calibrating channel 455 in 18 iterations, precision=6.05831e-07.
+Finished calibrating channel 457 in 18 iterations, precision=6.19551e-07.
+Finished calibrating channel 445 in 17 iterations, precision=9.99088e-07.
+Finished calibrating channel 456 in 18 iterations, precision=6.7468e-07.
+Finished calibrating channel 452 in 27 iterations, precision=6.66413e-07.
+Finished calibrating channel 458 in 18 iterations, precision=5.89646e-07.
+Finished calibrating channel 461 in 18 iterations, precision=7.91443e-07.
+Finished calibrating channel 460 in 18 iterations, precision=5.85675e-07.
+Finished calibrating channel 478 in 1 iterations, precision=0.
+Finished calibrating channel 454 in 27 iterations, precision=7.29689e-07.
+Finished calibrating channel 479 in 1 iterations, precision=0.
+Finished calibrating channel 450 in 27 iterations, precision=7.43757e-07.
+Finished calibrating channel 480 in 1 iterations, precision=0.
+Finished calibrating channel 459 in 18 iterations, precision=5.95978e-07.
+Finished calibrating channel 481 in 1 iterations, precision=0.
+Finished calibrating channel 462 in 18 iterations, precision=6.59398e-07.
+Finished calibrating channel 465 in 18 iterations, precision=7.34239e-07.
+Finished calibrating channel 469 in 18 iterations, precision=6.71696e-07.
+Finished calibrating channel 453 in 27 iterations, precision=7.40831e-07.
+Finished calibrating channel 463 in 18 iterations, precision=7.00301e-07.
+Finished calibrating channel 471 in 18 iterations, precision=6.19193e-07.
+Finished calibrating channel 470 in 18 iterations, precision=7.69516e-07.
+Finished calibrating channel 468 in 18 iterations, precision=6.56875e-07.
+Finished calibrating channel 476 in 17 iterations, precision=9.44663e-07.
+Finished calibrating channel 475 in 18 iterations, precision=7.82214e-07.
+Finished calibrating channel 467 in 18 iterations, precision=7.84244e-07.
+Finished calibrating channel 496 in 1 iterations, precision=0.
+Finished calibrating channel 472 in 17 iterations, precision=9.58705e-07.
+Finished calibrating channel 484 in 18 iterations, precision=9.31468e-07.
+Finished calibrating channel 466 in 26 iterations, precision=9.64708e-07.
+Finished calibrating channel 473 in 18 iterations, precision=8.12711e-07.
+Finished calibrating channel 474 in 18 iterations, precision=6.57024e-07.
+Finished calibrating channel 477 in 18 iterations, precision=8.03729e-07.
+Finished calibrating channel 482 in 18 iterations, precision=8.2329e-07.
+Finished calibrating channel 487 in 18 iterations, precision=6.69228e-07.
+Finished calibrating channel 488 in 18 iterations, precision=7.3138e-07.
+Finished calibrating channel 486 in 18 iterations, precision=8.09872e-07.
+Finished calibrating channel 491 in 18 iterations, precision=7.34704e-07.
+Finished calibrating channel 489 in 18 iterations, precision=9.81721e-07.
+Finished calibrating channel 490 in 18 iterations, precision=8.63845e-07.
+Finished calibrating channel 510 in 1 iterations, precision=0.
+Finished calibrating channel 492 in 18 iterations, precision=7.04906e-07.
+Finished calibrating channel 511 in 1 iterations, precision=0.
+Finished calibrating channel 485 in 27 iterations, precision=6.40646e-07.
+Finished calibrating channel 483 in 26 iterations, precision=9.78766e-07.
+Finished calibrating channel 512 in 1 iterations, precision=0.
+Finished calibrating channel 513 in 1 iterations, precision=0.
+Finished calibrating channel 494 in 18 iterations, precision=6.31366e-07.
+Finished calibrating channel 493 in 18 iterations, precision=7.446e-07.
+Finished calibrating channel 495 in 18 iterations, precision=6.2365e-07.
+Finished calibrating channel 499 in 18 iterations, precision=7.29473e-07.
+Finished calibrating channel 498 in 18 iterations, precision=8.45412e-07.
+Finished calibrating channel 504 in 18 iterations, precision=7.23027e-07.
+Finished calibrating channel 500 in 18 iterations, precision=9.67865e-07.
+Finished calibrating channel 505 in 18 iterations, precision=6.13015e-07.
+Finished calibrating channel 506 in 18 iterations, precision=6.21719e-07.
+Finished calibrating channel 501 in 18 iterations, precision=7.58841e-07.
+Finished calibrating channel 502 in 18 iterations, precision=8.48902e-07.
+Finished calibrating channel 503 in 18 iterations, precision=9.13641e-07.
+Finished calibrating channel 528 in 1 iterations, precision=0.
+Finished calibrating channel 508 in 18 iterations, precision=6.43008e-07.
+Finished calibrating channel 507 in 18 iterations, precision=6.1348e-07.
+Finished calibrating channel 497 in 27 iterations, precision=6.60486e-07.
+Finished calibrating channel 515 in 18 iterations, precision=7.14605e-07.
+Finished calibrating channel 520 in 18 iterations, precision=6.86284e-07.
+Finished calibrating channel 514 in 18 iterations, precision=9.63191e-07.
+Finished calibrating channel 519 in 18 iterations, precision=7.0479e-07.
+Finished calibrating channel 521 in 18 iterations, precision=7.07492e-07.
+Finished calibrating channel 522 in 18 iterations, precision=6.68783e-07.
+Finished calibrating channel 518 in 18 iterations, precision=7.32175e-07.
+Finished calibrating channel 509 in 18 iterations, precision=8.00191e-07.
+Finished calibrating channel 516 in 26 iterations, precision=9.46141e-07.
+Finished calibrating channel 526 in 17 iterations, precision=9.11006e-07.
+Finished calibrating channel 527 in 18 iterations, precision=6.74445e-07.
+Finished calibrating channel 543 in 1 iterations, precision=0.
+Finished calibrating channel 542 in 1 iterations, precision=0.
+Finished calibrating channel 517 in 27 iterations, precision=6.30606e-07.
+Finished calibrating channel 545 in 1 iterations, precision=0.
+Finished calibrating channel 544 in 1 iterations, precision=0.
+Finished calibrating channel 525 in 17 iterations, precision=9.06997e-07.
+Finished calibrating channel 523 in 18 iterations, precision=5.82483e-07.
+Finished calibrating channel 533 in 18 iterations, precision=7.55492e-07.
+Finished calibrating channel 529 in 18 iterations, precision=6.50872e-07.
+Finished calibrating channel 531 in 18 iterations, precision=7.434e-07.
+Finished calibrating channel 536 in 18 iterations, precision=6.33089e-07.
+Finished calibrating channel 524 in 18 iterations, precision=8.8938e-07.
+Finished calibrating channel 535 in 17 iterations, precision=8.52183e-07.
+Finished calibrating channel 538 in 18 iterations, precision=6.51345e-07.
+Finished calibrating channel 539 in 18 iterations, precision=6.38282e-07.
+Finished calibrating channel 534 in 17 iterations, precision=9.86955e-07.
+Finished calibrating channel 537 in 18 iterations, precision=6.618e-07.
+Finished calibrating channel 560 in 1 iterations, precision=0.
+Finished calibrating channel 532 in 18 iterations, precision=6.71505e-07.
+Finished calibrating channel 540 in 18 iterations, precision=6.10816e-07.
+Finished calibrating channel 530 in 27 iterations, precision=6.5295e-07.
+Finished calibrating channel 541 in 18 iterations, precision=9.86767e-07.
+Finished calibrating channel 551 in 18 iterations, precision=8.41964e-07.
+Finished calibrating channel 554 in 18 iterations, precision=6.90414e-07.
+Finished calibrating channel 552 in 18 iterations, precision=7.32373e-07.
+Finished calibrating channel 550 in 18 iterations, precision=7.1361e-07.
+Finished calibrating channel 548 in 26 iterations, precision=9.36006e-07.
+Finished calibrating channel 553 in 18 iterations, precision=7.18969e-07.
+Finished calibrating channel 555 in 18 iterations, precision=8.37013e-07.
+Finished calibrating channel 547 in 18 iterations, precision=7.87129e-07.
+Finished calibrating channel 549 in 26 iterations, precision=8.68343e-07.
+Finished calibrating channel 558 in 18 iterations, precision=6.88052e-07.
+Finished calibrating channel 576 in 1 iterations, precision=0.
+Finished calibrating channel 574 in 1 iterations, precision=0.
+Finished calibrating channel 575 in 1 iterations, precision=0.
+Finished calibrating channel 577 in 1 iterations, precision=0.
+Finished calibrating channel 556 in 18 iterations, precision=7.43149e-07.
+Finished calibrating channel 557 in 18 iterations, precision=6.4075e-07.
+Finished calibrating channel 559 in 18 iterations, precision=6.02818e-07.
+Finished calibrating channel 561 in 18 iterations, precision=8.40056e-07.
+Finished calibrating channel 546 in 26 iterations, precision=9.53663e-07.
+Finished calibrating channel 564 in 18 iterations, precision=7.1771e-07.
+Finished calibrating channel 563 in 18 iterations, precision=7.88911e-07.
+Finished calibrating channel 567 in 18 iterations, precision=8.51916e-07.
+Finished calibrating channel 568 in 17 iterations, precision=9.63219e-07.
+Finished calibrating channel 566 in 18 iterations, precision=6.79613e-07.
+Finished calibrating channel 569 in 17 iterations, precision=9.06306e-07.
+Finished calibrating channel 571 in 18 iterations, precision=6.91412e-07.
+Finished calibrating channel 592 in 1 iterations, precision=0.
+Finished calibrating channel 572 in 18 iterations, precision=8.63596e-07.
+Finished calibrating channel 570 in 18 iterations, precision=6.77609e-07.
+Finished calibrating channel 573 in 18 iterations, precision=6.85545e-07.
+Finished calibrating channel 565 in 18 iterations, precision=8.18702e-07.
+Finished calibrating channel 582 in 18 iterations, precision=7.20108e-07.
+Finished calibrating channel 584 in 18 iterations, precision=7.66024e-07.
+Finished calibrating channel 581 in 18 iterations, precision=8.11319e-07.
+Finished calibrating channel 586 in 18 iterations, precision=7.22376e-07.
+Finished calibrating channel 583 in 18 iterations, precision=9.20238e-07.
+Finished calibrating channel 562 in 26 iterations, precision=9.13737e-07.
+Finished calibrating channel 585 in 19 iterations, precision=6.49387e-07.
+Finished calibrating channel 580 in 26 iterations, precision=9.41668e-07.
+Finished calibrating channel 591 in 17 iterations, precision=9.9727e-07.
+Finished calibrating channel 579 in 27 iterations, precision=6.4084e-07.
+Finished calibrating channel 606 in 1 iterations, precision=0.
+Finished calibrating channel 589 in 17 iterations, precision=9.69579e-07.
+Finished calibrating channel 607 in 1 iterations, precision=0.
+Finished calibrating channel 609 in 1 iterations, precision=0.
+Finished calibrating channel 578 in 26 iterations, precision=9.68661e-07.
+Finished calibrating channel 608 in 1 iterations, precision=0.
+Finished calibrating channel 588 in 18 iterations, precision=9.05736e-07.
+Finished calibrating channel 596 in 18 iterations, precision=7.14346e-07.
+Finished calibrating channel 587 in 18 iterations, precision=7.81582e-07.
+Finished calibrating channel 595 in 18 iterations, precision=6.84724e-07.
+Finished calibrating channel 590 in 18 iterations, precision=9.03724e-07.
+Finished calibrating channel 594 in 18 iterations, precision=8.58047e-07.
+Finished calibrating channel 599 in 17 iterations, precision=9.70007e-07.
+Finished calibrating channel 598 in 17 iterations, precision=9.3872e-07.
+Finished calibrating channel 593 in 26 iterations, precision=9.09563e-07.
+Finished calibrating channel 600 in 18 iterations, precision=6.98635e-07.
+Finished calibrating channel 601 in 17 iterations, precision=9.73257e-07.
+Finished calibrating channel 624 in 1 iterations, precision=0.
+Finished calibrating channel 604 in 18 iterations, precision=6.04598e-07.
+Finished calibrating channel 597 in 18 iterations, precision=8.09827e-07.
+Finished calibrating channel 605 in 18 iterations, precision=7.09668e-07.
+Finished calibrating channel 602 in 18 iterations, precision=6.08976e-07.
+Finished calibrating channel 603 in 19 iterations, precision=5.97248e-07.
+Finished calibrating channel 616 in 18 iterations, precision=8.40113e-07.
+Finished calibrating channel 615 in 17 iterations, precision=9.9258e-07.
+Finished calibrating channel 612 in 18 iterations, precision=8.09829e-07.
+Finished calibrating channel 617 in 18 iterations, precision=6.66442e-07.
+Finished calibrating channel 621 in 18 iterations, precision=6.96466e-07.
+Finished calibrating channel 614 in 18 iterations, precision=7.04225e-07.
+Finished calibrating channel 618 in 18 iterations, precision=8.47294e-07.
+Finished calibrating channel 610 in 26 iterations, precision=9.96355e-07.
+Finished calibrating channel 620 in 18 iterations, precision=6.46068e-07.
+Finished calibrating channel 639 in 1 iterations, precision=0.
+Finished calibrating channel 638 in 1 iterations, precision=0.
+Finished calibrating channel 640 in 1 iterations, precision=0.
+Finished calibrating channel 622 in 18 iterations, precision=7.52505e-07.
+Finished calibrating channel 611 in 26 iterations, precision=9.80499e-07.
+Finished calibrating channel 641 in 1 iterations, precision=0.
+Finished calibrating channel 613 in 26 iterations, precision=9.2043e-07.
+Finished calibrating channel 623 in 18 iterations, precision=7.17047e-07.
+Finished calibrating channel 628 in 18 iterations, precision=7.27038e-07.
+Finished calibrating channel 626 in 17 iterations, precision=9.96535e-07.
+Finished calibrating channel 619 in 18 iterations, precision=7.61495e-07.
+Finished calibrating channel 625 in 26 iterations, precision=9.42552e-07.
+Finished calibrating channel 629 in 18 iterations, precision=7.83015e-07.
+Finished calibrating channel 627 in 18 iterations, precision=8.09342e-07.
+Finished calibrating channel 630 in 18 iterations, precision=7.08316e-07.
+Finished calibrating channel 634 in 17 iterations, precision=9.43953e-07.
+Finished calibrating channel 635 in 17 iterations, precision=8.58198e-07.
+Finished calibrating channel 656 in 1 iterations, precision=0.
+Finished calibrating channel 636 in 18 iterations, precision=5.93607e-07.
+Finished calibrating channel 633 in 17 iterations, precision=9.54546e-07.
+Finished calibrating channel 632 in 18 iterations, precision=6.26627e-07.
+Finished calibrating channel 647 in 18 iterations, precision=5.95542e-07.
+Finished calibrating channel 637 in 18 iterations, precision=6.76258e-07.
+Finished calibrating channel 648 in 18 iterations, precision=8.41814e-07.
+Finished calibrating channel 642 in 27 iterations, precision=6.4229e-07.
+Finished calibrating channel 631 in 18 iterations, precision=7.58875e-07.
+Finished calibrating channel 644 in 18 iterations, precision=6.58926e-07.
+Finished calibrating channel 651 in 17 iterations, precision=9.93783e-07.
+Finished calibrating channel 643 in 17 iterations, precision=8.87277e-07.
+Finished calibrating channel 650 in 18 iterations, precision=6.58932e-07.
+Finished calibrating channel 649 in 17 iterations, precision=9.96439e-07.
+Finished calibrating channel 670 in 1 iterations, precision=0.
+Finished calibrating channel 652 in 17 iterations, precision=9.82661e-07.
+Finished calibrating channel 671 in 1 iterations, precision=0.
+Finished calibrating channel 646 in 18 iterations, precision=6.68146e-07.
+Finished calibrating channel 654 in 17 iterations, precision=9.97028e-07.
+Finished calibrating channel 672 in 1 iterations, precision=0.
+Finished calibrating channel 673 in 1 iterations, precision=0.
+Finished calibrating channel 653 in 17 iterations, precision=9.99611e-07.
+Finished calibrating channel 655 in 17 iterations, precision=9.48909e-07.
+Finished calibrating channel 658 in 18 iterations, precision=6.37011e-07.
+Finished calibrating channel 667 in 17 iterations, precision=8.36711e-07.
+Finished calibrating channel 663 in 17 iterations, precision=8.12274e-07.
+Finished calibrating channel 659 in 18 iterations, precision=6.10715e-07.
+Finished calibrating channel 666 in 17 iterations, precision=9.96369e-07.
+Finished calibrating channel 657 in 27 iterations, precision=7.195e-07.
+Finished calibrating channel 661 in 17 iterations, precision=7.62049e-07.
+Finished calibrating channel 645 in 27 iterations, precision=6.31614e-07.
+Finished calibrating channel 660 in 18 iterations, precision=7.07e-07.
+Finished calibrating channel 662 in 18 iterations, precision=7.46339e-07.
+Finished calibrating channel 688 in 1 iterations, precision=0.
+Finished calibrating channel 674 in 18 iterations, precision=7.34608e-07.
+Finished calibrating channel 668 in 17 iterations, precision=9.97491e-07.
+Finished calibrating channel 665 in 18 iterations, precision=6.46152e-07.
+Finished calibrating channel 664 in 18 iterations, precision=6.35311e-07.
+Finished calibrating channel 669 in 17 iterations, precision=9.50631e-07.
+Finished calibrating channel 675 in 17 iterations, precision=9.35636e-07.
+Finished calibrating channel 681 in 18 iterations, precision=6.13116e-07.
+Finished calibrating channel 679 in 17 iterations, precision=9.04515e-07.
+Finished calibrating channel 682 in 17 iterations, precision=8.64454e-07.
+Finished calibrating channel 678 in 17 iterations, precision=9.28296e-07.
+Finished calibrating channel 691 in 18 iterations, precision=7.35254e-07.
+Finished calibrating channel 686 in 17 iterations, precision=9.44051e-07.
+Finished calibrating channel 687 in 18 iterations, precision=8.55007e-07.
+Finished calibrating channel 680 in 18 iterations, precision=6.82871e-07.
+Finished calibrating channel 683 in 17 iterations, precision=9.51644e-07.
+Finished calibrating channel 702 in 1 iterations, precision=0.
+Finished calibrating channel 704 in 1 iterations, precision=0.
+Finished calibrating channel 705 in 1 iterations, precision=0.
+Finished calibrating channel 684 in 18 iterations, precision=7.6259e-07.
+Finished calibrating channel 703 in 1 iterations, precision=0.
+Finished calibrating channel 685 in 17 iterations, precision=9.94737e-07.
+Finished calibrating channel 676 in 27 iterations, precision=7.25588e-07.
+Finished calibrating channel 689 in 18 iterations, precision=6.865e-07.
+Finished calibrating channel 690 in 27 iterations, precision=7.65868e-07.
+Finished calibrating channel 694 in 18 iterations, precision=6.43252e-07.
+Finished calibrating channel 692 in 18 iterations, precision=6.85856e-07.
+Finished calibrating channel 677 in 27 iterations, precision=6.31477e-07.
+Finished calibrating channel 696 in 18 iterations, precision=6.04772e-07.
+Finished calibrating channel 695 in 18 iterations, precision=6.24574e-07.
+Finished calibrating channel 697 in 17 iterations, precision=9.03216e-07.
+Finished calibrating channel 720 in 1 iterations, precision=0.
+Finished calibrating channel 693 in 18 iterations, precision=6.41385e-07.
+Finished calibrating channel 698 in 17 iterations, precision=9.71573e-07.
+Finished calibrating channel 699 in 17 iterations, precision=7.96489e-07.
+Finished calibrating channel 701 in 18 iterations, precision=9.10655e-07.
+Finished calibrating channel 700 in 18 iterations, precision=6.10467e-07.
+Finished calibrating channel 711 in 17 iterations, precision=9.40432e-07.
+Finished calibrating channel 709 in 18 iterations, precision=6.52945e-07.
+Finished calibrating channel 712 in 18 iterations, precision=6.74204e-07.
+Finished calibrating channel 714 in 17 iterations, precision=9.23789e-07.
+Finished calibrating channel 716 in 18 iterations, precision=6.4909e-07.
+Finished calibrating channel 713 in 18 iterations, precision=5.99329e-07.
+Finished calibrating channel 715 in 17 iterations, precision=9.33157e-07.
+Finished calibrating channel 718 in 17 iterations, precision=9.40059e-07.
+Finished calibrating channel 734 in 1 iterations, precision=0.
+Finished calibrating channel 707 in 27 iterations, precision=7.77642e-07.
+Finished calibrating channel 735 in 1 iterations, precision=0.
+Finished calibrating channel 710 in 27 iterations, precision=8.60579e-07.
+Finished calibrating channel 736 in 1 iterations, precision=0.
+Finished calibrating channel 737 in 1 iterations, precision=0.
+Finished calibrating channel 724 in 18 iterations, precision=7.04186e-07.
+Finished calibrating channel 723 in 17 iterations, precision=9.754e-07.
+Finished calibrating channel 725 in 18 iterations, precision=6.27749e-07.
+Finished calibrating channel 717 in 18 iterations, precision=6.78168e-07.
+Finished calibrating channel 722 in 17 iterations, precision=8.91966e-07.
+Finished calibrating channel 706 in 27 iterations, precision=8.00206e-07.
+Finished calibrating channel 708 in 27 iterations, precision=8.01331e-07.
+Finished calibrating channel 726 in 17 iterations, precision=9.00756e-07.
+Finished calibrating channel 719 in 17 iterations, precision=8.95145e-07.
+Finished calibrating channel 729 in 17 iterations, precision=7.72394e-07.
+Finished calibrating channel 727 in 17 iterations, precision=7.77267e-07.
+Finished calibrating channel 730 in 17 iterations, precision=7.21044e-07.
+Finished calibrating channel 728 in 17 iterations, precision=7.69826e-07.
+Finished calibrating channel 752 in 1 iterations, precision=0.
+Finished calibrating channel 731 in 17 iterations, precision=6.95923e-07.
+Finished calibrating channel 732 in 17 iterations, precision=8.78102e-07.
+Finished calibrating channel 721 in 27 iterations, precision=7.84041e-07.
+Finished calibrating channel 733 in 17 iterations, precision=8.48793e-07.
+Finished calibrating channel 742 in 17 iterations, precision=7.91501e-07.
+Finished calibrating channel 741 in 17 iterations, precision=7.42596e-07.
+Finished calibrating channel 738 in 18 iterations, precision=6.94509e-07.
+Finished calibrating channel 744 in 17 iterations, precision=9.70045e-07.
+Finished calibrating channel 743 in 17 iterations, precision=8.56213e-07.
+Finished calibrating channel 748 in 17 iterations, precision=8.32274e-07.
+Finished calibrating channel 740 in 27 iterations, precision=6.66424e-07.
+Finished calibrating channel 751 in 17 iterations, precision=8.96961e-07.
+Finished calibrating channel 750 in 17 iterations, precision=9.77359e-07.
+Finished calibrating channel 766 in 1 iterations, precision=0.
+Finished calibrating channel 745 in 17 iterations, precision=8.84662e-07.
+Finished calibrating channel 753 in 17 iterations, precision=9.69084e-07.
+Finished calibrating channel 767 in 1 iterations, precision=0.
+Finished calibrating channel 757 in 18 iterations, precision=6.9562e-07.
+Finished calibrating channel 747 in 18 iterations, precision=6.25491e-07.
+Finished calibrating channel 739 in 27 iterations, precision=6.19282e-07.
+Finished calibrating channel 758 in 18 iterations, precision=7.13273e-07.
+Finished calibrating channel 756 in 18 iterations, precision=6.54927e-07.
+Finished calibrating channel 746 in 18 iterations, precision=6.43226e-07.
+Finished calibrating channel 749 in 18 iterations, precision=6.54315e-07.
+Finished calibrating channel 759 in 17 iterations, precision=7.72634e-07.
+Finished calibrating channel 754 in 27 iterations, precision=7.88068e-07.
+Finished calibrating channel 755 in 18 iterations, precision=6.25359e-07.
+Finished calibrating channel 760 in 17 iterations, precision=8.63677e-07.
+Finished calibrating channel 763 in 17 iterations, precision=9.33869e-07.
+Finished calibrating channel 762 in 17 iterations, precision=8.16871e-07.
+Finished calibrating channel 761 in 17 iterations, precision=8.25743e-07.
+Finished calibrating channel 765 in 17 iterations, precision=9.43691e-07.
+Finished calibrating channel 764 in 17 iterations, precision=7.65508e-07.
+Opening measurement set...DONE
+Counting timesteps... DONE (28 timesteps)
+Checking solutions file... DONE
+Applying solutions...
+- Interval 1/1 (0-231168)
+  Antenna1: (0.48724,0.502095)
+
+WSClean version 1.10 (2015-12-12)
+This software package is released under the GPL version 3.
+Author: André Offringa (offringa@gmail.com).
+
+First measurement set has corrected data: tasks will be applied on the corrected data column.
+=== IMAGING TABLE ===
+       # Pol Ch JG ²G Freq(MHz)
+| Independent group:
++-+-J- 0 XX   0  0  0  139-170
+    J- 1 XY   0  0  0  139-170
+    J- 2 YX   0  0  0  139-170
+    J- 3 YY   0  0  0  139-170
+
+Reordering 1123785280.ms (231168 selected rows) into 1 x 4 parts.
+Reordering: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Initializing model visibilities: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Detected 63 GB of system memory, usage not limited.
+Opening reordered part 0 spw 0 for 1123785280.ms
+Precalculating weights for Briggs'(-1) weighting... DONE
+ == Constructing PSF ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Suggested number of w-layers: 315
+Will process 315/315 w-layers per pass.
+Gridding pass 0... 
+Rows that were required: 227584/0
+Fourier transforms...
+Total rows read: 227584
+Freed 355 image buffer(s).
+Fitting beam... major=2.79', minor=2.25', PA=93.17 deg, theoretical=2.12'.
+Writing psf image... DONE
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 10 image buffer(s).
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 355 image buffer(s).
+Writing dirty image...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 11 image buffer(s).
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 670 image buffer(s).
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 21 image buffer(s).
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 670 image buffer(s).
+Adding XY and YX together...
+Adding XY and YX together...
+Writing dirty image...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 21 image buffer(s).
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 355 image buffer(s).
+Writing dirty image...
+ == Cleaning (1) ==
+Freed 1 image buffer(s).
+Initial peak: 52.2767 Jy at 2000,2000
+Next major iteration at: 7.8415
+Iteration 0: 52.2767 Jy at 2000,2000
+Iteration 1: 47.0555 Jy at 2000,2000
+Iteration 2: 42.3558 Jy at 2000,2000
+Iteration 3: 38.1255 Jy at 2000,2000
+Iteration 4: 34.3176 Jy at 2000,2000
+Iteration 5: 30.8901 Jy at 2000,2000
+Iteration 6: 27.805 Jy at 2000,2000
+Iteration 7: 25.0279 Jy at 2000,2000
+Iteration 8: 22.5282 Jy at 2000,2000
+Iteration 9: 20.2782 Jy at 2000,2000
+Iteration 10: 18.2529 Jy at 2000,2000
+Iteration 20: 9.09728 Jy at 2000,2001
+Stopped on peak 7.59775
+Writing first iteration image(s)...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 14 image buffer(s).
+Will process 315/315 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 356 image buffer(s).
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 10 image buffer(s).
+Will process 630/630 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 672 image buffer(s).
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 20 image buffer(s).
+Will process 630/630 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 630/630 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 672 image buffer(s).
+Adding XY and YX together...
+Adding XY and YX together...
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 20 image buffer(s).
+Will process 315/315 w-layers per pass.
+Fourier transforms for pass 0... Predicting...
+Total rows written: 227584
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Will process 315/315 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 356 image buffer(s).
+ == Cleaning (2) ==
+Initial peak: 7.61196 Jy at 2245,1803
+Next major iteration at: 1.14179
+Iteration 30: 7.40541 Jy at 2001,2002
+Iteration 40: 6.04428 Jy at 2000,1998
+Iteration 50: 5.48083 Jy at 2516,1842
+Iteration 60: 5.00227 Jy at 1309,1967
+Iteration 70: 4.75243 Jy at 1647,3498
+Iteration 80: 4.49562 Jy at 2663,1648
+Iteration 90: 4.24193 Jy at 3261,1515
+Iteration 100: 4.06594 Jy at 2000,1998
+Iteration 200: 2.82254 Jy at 2541,2689
+Iteration 300: 2.20745 Jy at 1936,2203
+Iteration 400: 1.84028 Jy at 3573,2820
+Iteration 500: 1.60223 Jy at 2539,2537
+Iteration 600: 1.44068 Jy at 2274,755
+Iteration 700: 1.3112 Jy at 2840,2031
+Iteration 800: 1.21375 Jy at 2091,2444
+Stopped on peak 1.14029
+Opening reordered part 0 spw 0 for 1123785280.ms
+ == Converting model image to visibilities ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 1815 x 1815, using optimal: 1920 x 1920
+Freed 14 image buffer(s).
+Will process 315/315 w-layers per pass.
+Fourier transforms for pass 0... Predicting...

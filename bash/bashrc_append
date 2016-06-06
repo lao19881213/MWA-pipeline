@@ -1,0 +1,27 @@
+
+# Allows only owner and group  to modify files created in /group and /scratch2
+umask 007
+
+# MWA code
+export MWA_BASE=/group/mwasci
+export MWA_CODE_BASE=$MWA_BASE/code
+export PATH=${PATH}:${MWA_CODE_BASE}/bin
+
+# MWA python scripts
+export PYTHONPATH=${PYTHONPATH}:$MWA_CODE_BASE/lib/python2.6/site-packages:~/bin/
+
+# PBS to SLURM translation
+alias qsub='sbatch -c 1'
+alias qstat='squeue'
+alias qdel='scancel'
+alias qstat='squeue -o "%.18i %.9P %.25j %.8u %.8T %.10M %.9l %.6D %R"'
+
+# Fast shortcuts to see what's queued
+alias q='qstat -u $USER'
+alias qz='squeue -M zeus -u $USER'
+
+# Handy ds9 variable; use like ds9 $SCL somefitsfile.fits
+export SCL="-lock frame image -lock scale yes -scale limits -0.1 0.2"
+
+# Color support for ls
+alias ls='ls --color=auto'

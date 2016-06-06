@@ -1,0 +1,7 @@
+#!/bin/bash -l
+
+# Calibrate the data
+
+
+aprun="aprun -n 1 -d NCPUS -q "
+

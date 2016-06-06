@@ -1,0 +1,139 @@
+Reading meta data... DONE
+Counting timesteps... DONE (28 timesteps, 1 intervals)
+Reading model... Warning: this model is written in the old sky-model file format. The old format does 
+         not properly support polarization, so is deprecated.
+         Use "editmodel -m new_model.txt old_model.txt" to convert the model.
+DONE
+ >>> INTERVAL 1 / 1 <<<
+Will use 20 cores.
+Detected 63 GB of system memory.
+One channel takes 34.7 MB of mem.
+Number of channels that fit in memory: 768 (1 passes)
+Delays: [18,14,10,6,16,12,8,4,14,10,6,2,12,8,4,0]
+Loading ZA/PH values...
+Loading J lookup matrix for frequency (MHz) :
+  72.96 80.64 88.32 96 103.68 111.36 119.04 126.72 134.4 139.52 140.8 142.08 143.36 144.64 145.92 147.2 148.48 149.76 151.04 152.32 153.6 154.88 156.16 157.44 158.72 160 161.28 162.56 163.84 165.12 166.4 167.68 168.96 170.24 171.52 172.8 174.08 175.36 176.64 177.92 179.2 180.48 181.76 183.04 184.32 185.6 186.88 188.16 189.44 190.72 192 193.28 194.56 195.84 197.12 198.4 199.68 200.96 208.64 216.32 224 231.68 239.36 
+Loading impedance matrices for freq (MHz): 73 80.59999999999999 88.3 96 103.7 111.4 119 126.7 134.4 139.5 140.8 142.1 143.4 144.6 145.9 147.2 148.5 149.8 151 152.3 153.6 154.9 156.2 157.4 158.7 160 161.3 162.6 163.8 165.1 166.4 167.7 169 170.2 171.5 172.8 174.1 175.4 176.6 177.9 179.2 180.5 181.8 183 184.3 185.6 186.9 188.2 189.4 190.7 192 193.3 194.6 195.8 197.1 198.4 199.7 201 208.6 216.3 224 231.7 239.4 
+Frequency interpolation of beam is enabled.
+Reading data & predicting model...
+Model predicter initialized with 1 sources of apparent brightness [0.9441135849323068,-0.01128320093954923,-0.01128320093954924,0.4094373299116598]
+(absolute brightness: [70.87613701198332,0,0,0], abs at low freq: 75.53035216562606, abs at high freq: 66.6539824358053)
+...........................DONE (220724/224028 rows selected)
+Calibrating...
+Current value of Jones matrix for ant 1, ch 1:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 1 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 0:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 0 in 1 iterations, precision=0.
+Recalculating channel 6 (accuracy=2.896849340237495).
+Recalculating channel 4 (accuracy=4.107909247931658).
+Recalculating channel 20 (accuracy=0.4906131429302601).
+Recalculating channel 19 (accuracy=1.871138544384852).
+Recalculating channel 7 (accuracy=1.54048542629734).
+Recalculating channel 2 (accuracy=2.488075570786163).
+Recalculating channel 5 (accuracy=2.928396499663881).
+Recalculating channel 3 (accuracy=4.103298498984765).
+Recalculating channel 21 (accuracy=3.235414397344189).
+Recalculating channel 14 (accuracy=2.785110868487948).
+Recalculating channel 16 (accuracy=5.737400392022379).
+Recalculating channel 17 (accuracy=2.940823793289165).
+Recalculating channel 8 (accuracy=2.434197846811455).
+Recalculating channel 9 (accuracy=2.808164957814089).
+Recalculating channel 18 (accuracy=3.77695107177671).
+Recalculating channel 10 (accuracy=1.117194504078241).
+Recalculating channel 13 (accuracy=2.182497619047554).
+Recalculating channel 11 (accuracy=3.004020226663839).
+Recalculating channel 12 (accuracy=4.479512646824523).
+Recalculating channel 15 (accuracy=1.655572069653294).
+Channel 6 did not converge (accuracy=2.83924957894584), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 6:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 6 in 100 iterations, precision=2.83924957894584.
+Channel 2 did not converge (accuracy=2.43573444449774), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 2:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 2 in 100 iterations, precision=2.43573444449774.
+Channel 3 did not converge (accuracy=3.952256653115155), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 3:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 3 in 100 iterations, precision=3.952256653115155.
+Channel 20 did not converge (accuracy=0.4693101173759988), setting gains to NaN.
+Finished calibrating channel 20 in 100 iterations, precision=0.4693101173759988.
+Channel 19 did not converge (accuracy=2.074229001363293), setting gains to NaN.
+Finished calibrating channel 19 in 100 iterations, precision=2.074229001363293.
+Channel 21 did not converge (accuracy=3.28152279594681), setting gains to NaN.
+Finished calibrating channel 21 in 100 iterations, precision=3.28152279594681.
+Channel 7 did not converge (accuracy=1.615986526957869), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 7:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 7 in 100 iterations, precision=1.615986526957869.
+Channel 5 did not converge (accuracy=3.094392964440023), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 5:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 5 in 100 iterations, precision=3.094392964440023.
+Channel 4 did not converge (accuracy=4.275032826242303), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 4:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 4 in 100 iterations, precision=4.275032826242303.
+Finished calibrating channel 30 in 1 iterations, precision=0.
+Finished calibrating channel 31 in 1 iterations, precision=0.
+Finished calibrating channel 32 in 1 iterations, precision=0.
+Finished calibrating channel 33 in 1 iterations, precision=0.
+Channel 18 did not converge (accuracy=3.698084692451391), setting gains to NaN.
+Finished calibrating channel 18 in 100 iterations, precision=3.698084692451391.
+Channel 16 did not converge (accuracy=5.622789585343398), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 16:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 16 in 100 iterations, precision=5.622789585343398.
+Channel 17 did not converge (accuracy=3.219209237197561), setting gains to NaN.
+Finished calibrating channel 17 in 100 iterations, precision=3.219209237197561.
+Channel 8 did not converge (accuracy=2.313605673948217), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 8:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 8 in 100 iterations, precision=2.313605673948217.
+Channel 9 did not converge (accuracy=2.90397519730795), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 9:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 9 in 100 iterations, precision=2.90397519730795.
+Channel 14 did not converge (accuracy=2.799255775899965), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 14:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 14 in 100 iterations, precision=2.799255775899965.
+Channel 12 did not converge (accuracy=4.468086957589417), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 12:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 12 in 100 iterations, precision=4.468086957589417.
+Channel 10 did not converge (accuracy=1.161603785818629), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 10:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 10 in 100 iterations, precision=1.161603785818629.
+Channel 11 did not converge (accuracy=3.03667885850219), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 11:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 11 in 100 iterations, precision=3.03667885850219.
+Channel 13 did not converge (accuracy=2.409035598139071), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 13:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 13 in 100 iterations, precision=2.409035598139071.
+Channel 15 did not converge (accuracy=1.656624036666737), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 15:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 15 in 100 iterations, precision=1.656624036666737.

@@ -1,0 +1,7 @@
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+2016-06-02 12:51:20	SEVERE	MeasTable::dUTC(Double) (file /group/mwasci/software/build/casacore-2.0.3/measures/Measures/MeasTable.cc, line 4341)	Leap second table TAI_UTC seems out-of-date. 
+2016-06-02 12:51:20	SEVERE	MeasTable::dUTC(Double) (file /group/mwasci/software/build/casacore-2.0.3/measures/Measures/MeasTable.cc, line 4341)+	Until the table is updated (see the CASA documentation or your system admin),
+2016-06-02 12:51:20	SEVERE	MeasTable::dUTC(Double) (file /group/mwasci/software/build/casacore-2.0.3/measures/Measures/MeasTable.cc, line 4341)+	times and coordinates derived from UTC could be wrong by 1s or more.
+2016-06-02 12:51:21	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 57514.9 is outside the range of the IERS (Earth axis data) table.
+2016-06-02 12:51:21	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
+slurmstepd: error: *** JOB 1278070 CANCELLED AT 2016-06-02T20:52:37 *** on mom2

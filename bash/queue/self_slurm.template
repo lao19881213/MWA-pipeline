@@ -1,0 +1,18 @@
+#!/bin/bash -l
+
+# Calibrate the data
+
+#SBATCH --account=GROUP
+##SBATCH --reservation=STANDARDQ
+#SBATCH --time=02:00:00
+#SBATCH --nodes=1
+#SBATCH --mem=HOSTMEMgb
+#SBATCH --output=QUEUEDIR/OUTPUT.o%j
+#SBATCH --error=QUEUEDIR/OUTPUT.e%j
+#SBATCH --export=NONE
+
+source /home/blao/course/bashrc_append
+source /home/blao/course/profile_append
+
+aprun="aprun -n 1 -d NCPUS -q "
+

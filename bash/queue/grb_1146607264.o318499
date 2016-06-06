@@ -1,0 +1,70 @@
+Fri Jun  3 14:34:10 2016 [INFO] Finding observation 1146607264
+Fri Jun  3 14:34:10 2016 [INFO] Found 26 files
+Fri Jun  3 14:34:10 2016 [INFO] Downloading 1146607264_20160506220049_gpubox24_00.fits
+Fri Jun  3 14:34:10 2016 [INFO] Downloading 1146607264_metafits_ppds.fits
+Fri Jun  3 14:34:10 2016 [INFO] Downloading 1146607264_20160506220049_gpubox03_00.fits
+Fri Jun  3 14:34:10 2016 [INFO] Downloading 1146607264_20160506220049_gpubox17_00.fits
+Fri Jun  3 14:34:14 2016 [INFO] 1146607264_metafits_ppds.fits complete [1 of 26]
+Fri Jun  3 14:34:14 2016 [INFO] Downloading 1146607264_20160506220049_gpubox22_00.fits
+Fri Jun  3 14:35:06 2016 [INFO] 1146607264_20160506220049_gpubox03_00.fits complete [2 of 26]
+Fri Jun  3 14:35:06 2016 [INFO] Downloading 1146607264_20160506220049_gpubox02_00.fits
+Fri Jun  3 14:35:08 2016 [INFO] 1146607264_20160506220049_gpubox17_00.fits complete [3 of 26]
+Fri Jun  3 14:35:09 2016 [INFO] 1146607264_20160506220049_gpubox24_00.fits complete [4 of 26]
+Fri Jun  3 14:35:09 2016 [INFO] Downloading 1146607264_20160506220049_gpubox19_00.fits
+Fri Jun  3 14:35:09 2016 [INFO] Downloading 1146607264_20160506220049_gpubox07_00.fits
+Fri Jun  3 14:35:15 2016 [INFO] 1146607264_20160506220049_gpubox22_00.fits complete [5 of 26]
+Fri Jun  3 14:35:16 2016 [INFO] Downloading 1146607264_20160506220049_gpubox01_00.fits
+Fri Jun  3 14:36:08 2016 [INFO] 1146607264_20160506220049_gpubox02_00.fits complete [6 of 26]
+Fri Jun  3 14:36:08 2016 [INFO] Downloading 1146607264_20160506220049_gpubox23_00.fits
+Fri Jun  3 14:36:11 2016 [INFO] 1146607264_20160506220049_gpubox07_00.fits complete [7 of 26]
+Fri Jun  3 14:36:12 2016 [INFO] Downloading 1146607264_20160506220049_gpubox18_00.fits
+Fri Jun  3 14:36:13 2016 [INFO] 1146607264_20160506220049_gpubox19_00.fits complete [8 of 26]
+Fri Jun  3 14:36:14 2016 [INFO] Downloading 1146607264_20160506220049_gpubox05_00.fits
+Fri Jun  3 14:36:14 2016 [INFO] 1146607264_20160506220049_gpubox01_00.fits complete [9 of 26]
+Fri Jun  3 14:36:15 2016 [INFO] Downloading 1146607264_20160506220049_gpubox15_00.fits
+Fri Jun  3 14:36:24 2016 [ERROR] 1146607264_20160506220049_gpubox15_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox15_00.fits'
+Fri Jun  3 14:36:24 2016 [INFO] Downloading 1146607264_20160506220049_gpubox13_00.fits
+Fri Jun  3 14:36:27 2016 [ERROR] 1146607264_20160506220049_gpubox13_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox13_00.fits'
+Fri Jun  3 14:36:28 2016 [INFO] Downloading 1146607264_20160506220049_gpubox10_00.fits
+Fri Jun  3 14:36:29 2016 [ERROR] 1146607264_20160506220049_gpubox10_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox10_00.fits'
+Fri Jun  3 14:36:30 2016 [INFO] Downloading 1146607264_20160506220049_gpubox04_00.fits
+Fri Jun  3 14:36:31 2016 [ERROR] 1146607264_20160506220049_gpubox04_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox04_00.fits'
+Fri Jun  3 14:36:32 2016 [INFO] Downloading 1146607264_20160506220049_gpubox11_00.fits
+Fri Jun  3 14:36:33 2016 [ERROR] 1146607264_20160506220049_gpubox11_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox11_00.fits'
+Fri Jun  3 14:36:34 2016 [INFO] Downloading 1146607264_20160506220049_gpubox20_00.fits
+Fri Jun  3 14:36:36 2016 [ERROR] 1146607264_20160506220049_gpubox20_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox20_00.fits'
+Fri Jun  3 14:36:37 2016 [INFO] Downloading 1146607264_20160506220049_gpubox14_00.fits
+Fri Jun  3 14:36:39 2016 [ERROR] 1146607264_20160506220049_gpubox14_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox14_00.fits'
+Fri Jun  3 14:36:40 2016 [INFO] Downloading 1146607264_20160506220049_gpubox12_00.fits
+Fri Jun  3 14:36:41 2016 [ERROR] 1146607264_20160506220049_gpubox12_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox12_00.fits'
+Fri Jun  3 14:36:42 2016 [INFO] Downloading 1146607264_flags.zip
+Fri Jun  3 14:36:44 2016 [ERROR] 1146607264_flags.zip: [Errno 2] No such file or directory: u'./1146607264/1146607264_flags.zip'
+Fri Jun  3 14:36:45 2016 [INFO] Downloading 1146607264_20160506220049_gpubox08_00.fits
+Fri Jun  3 14:36:46 2016 [ERROR] 1146607264_20160506220049_gpubox08_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox08_00.fits'
+Fri Jun  3 14:36:47 2016 [INFO] Downloading 1146607264_20160506220049_gpubox09_00.fits
+Fri Jun  3 14:36:48 2016 [ERROR] 1146607264_20160506220049_gpubox09_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox09_00.fits'
+Fri Jun  3 14:36:49 2016 [INFO] Downloading 1146607264_20160506220049_gpubox21_00.fits
+Fri Jun  3 14:36:51 2016 [ERROR] 1146607264_20160506220049_gpubox21_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox21_00.fits'
+Fri Jun  3 14:36:52 2016 [INFO] Downloading 1146607264_20160506220049_gpubox16_00.fits
+Fri Jun  3 14:36:54 2016 [INFO] 1146607264_20160506220049_gpubox05_00.fits complete [10 of 26]
+Fri Jun  3 14:36:54 2016 [INFO] Downloading 1146607264_20160506220049_gpubox06_00.fits
+Fri Jun  3 14:36:54 2016 [ERROR] 1146607264_20160506220049_gpubox16_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox16_00.fits'
+Fri Jun  3 14:36:55 2016 [ERROR] 1146607264_20160506220049_gpubox06_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox06_00.fits'
+Fri Jun  3 14:36:56 2016 [INFO] 1146607264_20160506220049_gpubox23_00.fits complete [11 of 26]
+Fri Jun  3 14:36:58 2016 [INFO] 1146607264_20160506220049_gpubox18_00.fits complete [12 of 26]
+Fri Jun  3 14:36:58 2016 [INFO] File Transfer Complete.
+Fri Jun  3 14:36:58 2016 [INFO] File Transfer Error Summary:
+Fri Jun  3 14:36:24 2016 [ERROR] 1146607264_20160506220049_gpubox15_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox15_00.fits'
+Fri Jun  3 14:36:27 2016 [ERROR] 1146607264_20160506220049_gpubox13_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox13_00.fits'
+Fri Jun  3 14:36:29 2016 [ERROR] 1146607264_20160506220049_gpubox10_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox10_00.fits'
+Fri Jun  3 14:36:31 2016 [ERROR] 1146607264_20160506220049_gpubox04_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox04_00.fits'
+Fri Jun  3 14:36:33 2016 [ERROR] 1146607264_20160506220049_gpubox11_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox11_00.fits'
+Fri Jun  3 14:36:36 2016 [ERROR] 1146607264_20160506220049_gpubox20_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox20_00.fits'
+Fri Jun  3 14:36:39 2016 [ERROR] 1146607264_20160506220049_gpubox14_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox14_00.fits'
+Fri Jun  3 14:36:41 2016 [ERROR] 1146607264_20160506220049_gpubox12_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox12_00.fits'
+Fri Jun  3 14:36:44 2016 [ERROR] 1146607264_flags.zip: [Errno 2] No such file or directory: u'./1146607264/1146607264_flags.zip'
+Fri Jun  3 14:36:46 2016 [ERROR] 1146607264_20160506220049_gpubox08_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox08_00.fits'
+Fri Jun  3 14:36:48 2016 [ERROR] 1146607264_20160506220049_gpubox09_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox09_00.fits'
+Fri Jun  3 14:36:51 2016 [ERROR] 1146607264_20160506220049_gpubox21_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox21_00.fits'
+Fri Jun  3 14:36:54 2016 [ERROR] 1146607264_20160506220049_gpubox16_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox16_00.fits'
+Fri Jun  3 14:36:55 2016 [ERROR] 1146607264_20160506220049_gpubox06_00.fits: [Errno 2] No such file or directory: u'./1146607264/1146607264_20160506220049_gpubox06_00.fits'

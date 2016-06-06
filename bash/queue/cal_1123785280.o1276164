@@ -1,0 +1,71 @@
+Opening measurement set...DONE
+Adding column 'CORRECTED_DATA'... DONE
+Counting timesteps... DONE (28 timesteps)
+Checking solutions file... DONE
+Applying solutions...
+- Interval 1/1 (0-231168)
+  Antenna1: (0.453413,0.660667)
+
+WSClean version 1.10 (2015-12-12)
+This software package is released under the GPL version 3.
+Author: André Offringa (offringa@gmail.com).
+
+First measurement set has corrected data: tasks will be applied on the corrected data column.
+=== IMAGING TABLE ===
+       # Pol Ch JG ²G Freq(MHz)
+| Independent group:
++-+-J- 0 XX   0  0  0  139-170
+
+Detected 63 GB of system memory, usage not limited.
+Opening 1123785280.ms, spw 0 with contiguous MS reader.
+Precalculating weights for uniform weighting... DONE
+ == Constructing PSF ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 568 x 568, using optimal: 576 x 576
+Suggested number of w-layers: 30
+Will process 30/30 w-layers per pass.
+Gridding pass 0... 
+Rows that were required: 227584/0
+Fourier transforms...
+Total rows read: 227584
+Freed 70 image buffer(s).
+Fitting beam... major=2.46', minor=2.08', PA=105.33 deg, theoretical=2.12'.
+Writing psf image... DONE
+ == Constructing image ==
+Selected channels: 0-768
+Determining min and max w & theoretical beam size... DONE (w=[5.12757e-05:616.534] lambdas, maxuvw=1624.6 lambda, beam=2.12')
+Minimal inversion size: 568 x 568, using optimal: 576 x 576
+Freed 10 image buffer(s).
+Will process 30/30 w-layers per pass.
+Gridding pass 0... Fourier transforms...
+Freed 70 image buffer(s).
+Writing dirty image...
+ == Cleaning (1) ==
+Initial peak: 48.8008
+Iteration 0: (500,500), 48.8008 Jy
+Iteration 10: (500,500), 17.0423 Jy
+Iteration 20: (696,343), 7.49675 Jy
+Iteration 30: (696,342), 5.66216 Jy
+Iteration 40: (696,343), 4.7064 Jy
+Iteration 50: (668,197), 3.91528 Jy
+Iteration 60: (913,373), 3.31939 Jy
+Iteration 70: (696,342), 2.97899 Jy
+Iteration 80: (776,209), 2.67911 Jy
+Iteration 90: (776,210), 2.43141 Jy
+Iteration 100: (804,444), 2.28776 Jy
+Iteration 200: (943,472), 1.42591 Jy
+Iteration 300: (890,203), 1.05837 Jy
+Iteration 400: (890,203), 0.858505 Jy
+Iteration 500: (124,676), 0.745438 Jy
+Iteration 600: (177,616), 0.662928 Jy
+Stopped on peak -0.638043
+Writing model image...
+1 major iterations were performed.
+Rendering 146 elliptical sources to restored image (beam=2.08'-2.46', PA=105.33 deg)... DONE
+Writing restored image... DONE
+Image buf alloc stats:
+         max alloc'd images = 26 real + 70 complex
+       max allocated chunks = 14
+      current allocated mem = 0.1 GB 
+Inversion: 00:01:12.621574, prediction: 00:00:00, deconvolution: 00:00:00.067979

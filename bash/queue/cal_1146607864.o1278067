@@ -1,0 +1,564 @@
+Reading meta data... DONE
+Counting timesteps... DONE (28 timesteps, 1 intervals)
+Reading model... Warning: this model is written in the old sky-model file format. The old format does 
+         not properly support polarization, so is deprecated.
+         Use "editmodel -m new_model.txt old_model.txt" to convert the model.
+DONE
+ >>> INTERVAL 1 / 1 <<<
+Will use 20 cores.
+Detected 63 GB of system memory.
+One channel takes 34.7 MB of mem.
+Number of channels that fit in memory: 768 (1 passes)
+Delays: [18,14,10,6,16,12,8,4,14,10,6,2,12,8,4,0]
+Loading ZA/PH values...
+Loading J lookup matrix for frequency (MHz) :
+  72.96 80.64 88.32 96 103.68 111.36 119.04 126.72 134.4 139.52 140.8 142.08 143.36 144.64 145.92 147.2 148.48 149.76 151.04 152.32 153.6 154.88 156.16 157.44 158.72 160 161.28 162.56 163.84 165.12 166.4 167.68 168.96 170.24 171.52 172.8 174.08 175.36 176.64 177.92 179.2 180.48 181.76 183.04 184.32 185.6 186.88 188.16 189.44 190.72 192 193.28 194.56 195.84 197.12 198.4 199.68 200.96 208.64 216.32 224 231.68 239.36 
+Loading impedance matrices for freq (MHz): 73 80.59999999999999 88.3 96 103.7 111.4 119 126.7 134.4 139.5 140.8 142.1 143.4 144.6 145.9 147.2 148.5 149.8 151 152.3 153.6 154.9 156.2 157.4 158.7 160 161.3 162.6 163.8 165.1 166.4 167.7 169 170.2 171.5 172.8 174.1 175.4 176.6 177.9 179.2 180.5 181.8 183 184.3 185.6 186.9 188.2 189.4 190.7 192 193.3 194.6 195.8 197.1 198.4 199.7 201 208.6 216.3 224 231.7 239.4 
+Frequency interpolation of beam is enabled.
+Reading data & predicting model...
+Model predicter initialized with 1 sources of apparent brightness [0.9441135849323068,-0.01128320093954923,-0.01128320093954924,0.4094373299116598]
+(absolute brightness: [70.87613701198332,0,0,0], abs at low freq: 75.53035216562606, abs at high freq: 66.6539824358053)
+...........................DONE (220724/224028 rows selected)
+Calibrating...
+Current value of Jones matrix for ant 1, ch 1:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 1 in 1 iterations, precision=0.
+Current value of Jones matrix for ant 1, ch 0:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 0 in 1 iterations, precision=0.
+Recalculating channel 2 (accuracy=2.488075570786163).
+Recalculating channel 21 (accuracy=3.235414397344189).
+Recalculating channel 19 (accuracy=1.871138544384852).
+Recalculating channel 14 (accuracy=2.785110868487948).
+Recalculating channel 5 (accuracy=2.928396499663881).
+Recalculating channel 20 (accuracy=0.4906131429302601).
+Recalculating channel 4 (accuracy=4.107909247931658).
+Recalculating channel 3 (accuracy=4.103298498984765).
+Recalculating channel 13 (accuracy=2.182497619047554).
+Recalculating channel 11 (accuracy=3.004020226663839).
+Recalculating channel 17 (accuracy=2.940823793289165).
+Recalculating channel 7 (accuracy=1.54048542629734).
+Recalculating channel 6 (accuracy=2.896849340237495).
+Recalculating channel 15 (accuracy=1.655572069653294).
+Recalculating channel 8 (accuracy=2.434197846811455).
+Recalculating channel 16 (accuracy=5.737400392022379).
+Recalculating channel 18 (accuracy=3.77695107177671).
+Recalculating channel 9 (accuracy=2.808164957814089).
+Recalculating channel 10 (accuracy=1.117194504078241).
+Recalculating channel 12 (accuracy=4.479512646824523).
+Channel 19 did not converge (accuracy=2.074229001363293), setting gains to NaN.
+Finished calibrating channel 19 in 100 iterations, precision=2.074229001363293.
+Channel 2 did not converge (accuracy=2.43573444449774), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 2:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 2 in 100 iterations, precision=2.43573444449774.
+Channel 21 did not converge (accuracy=3.28152279594681), setting gains to NaN.
+Finished calibrating channel 21 in 100 iterations, precision=3.28152279594681.
+Channel 20 did not converge (accuracy=0.4693101173759988), setting gains to NaN.
+Finished calibrating channel 20 in 100 iterations, precision=0.4693101173759988.
+Channel 4 did not converge (accuracy=4.275032826242303), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 4:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 4 in 100 iterations, precision=4.275032826242303.
+Channel 5 did not converge (accuracy=3.094392964440023), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 5:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 5 in 100 iterations, precision=3.094392964440023.
+Channel 3 did not converge (accuracy=3.952256653115155), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 3:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 3 in 100 iterations, precision=3.952256653115155.
+Channel 7 did not converge (accuracy=1.615986526957869), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 7:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 7 in 100 iterations, precision=1.615986526957869.
+Channel 14 did not converge (accuracy=2.799255775899965), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 14:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 14 in 100 iterations, precision=2.799255775899965.
+Channel 6 did not converge (accuracy=2.83924957894584), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 6:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 6 in 100 iterations, precision=2.83924957894584.
+Finished calibrating channel 30 in 1 iterations, precision=0.
+Finished calibrating channel 31 in 1 iterations, precision=0.
+Finished calibrating channel 33 in 1 iterations, precision=0.
+Finished calibrating channel 32 in 1 iterations, precision=0.
+Channel 17 did not converge (accuracy=3.219209237197561), setting gains to NaN.
+Finished calibrating channel 17 in 100 iterations, precision=3.219209237197561.
+Channel 13 did not converge (accuracy=2.409035598139071), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 13:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 13 in 100 iterations, precision=2.409035598139071.
+Channel 18 did not converge (accuracy=3.698084692451391), setting gains to NaN.
+Finished calibrating channel 18 in 100 iterations, precision=3.698084692451391.
+Channel 8 did not converge (accuracy=2.313605673948217), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 8:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 8 in 100 iterations, precision=2.313605673948217.
+Channel 11 did not converge (accuracy=3.03667885850219), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 11:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 11 in 100 iterations, precision=3.03667885850219.
+Channel 15 did not converge (accuracy=1.656624036666737), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 15:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 15 in 100 iterations, precision=1.656624036666737.
+Channel 16 did not converge (accuracy=5.622789585343398), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 16:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 16 in 100 iterations, precision=5.622789585343398.
+Channel 10 did not converge (accuracy=1.161603785818629), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 10:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 10 in 100 iterations, precision=1.161603785818629.
+Channel 9 did not converge (accuracy=2.90397519730795), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 9:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 9 in 100 iterations, precision=2.90397519730795.
+Recalculating channel 22 (accuracy=2.525629763263933).
+Channel 12 did not converge (accuracy=4.468086957589417), setting gains to NaN.
+Current value of Jones matrix for ant 1, ch 12:
+ ((nan,nan) (nan,nan))	amplitudes=(nan nan) SV=	-nan
+ ((nan,nan) (nan,nan))	           (nan nan)    	nan
+Finished calibrating channel 12 in 100 iterations, precision=4.468086957589417.
+Recalculating channel 23 (accuracy=2.379249115075186).
+Recalculating channel 24 (accuracy=3.995898637884923).
+Recalculating channel 26 (accuracy=1.875815238417263).
+Recalculating channel 28 (accuracy=7.50648243010601).
+Recalculating channel 25 (accuracy=2.060152628222318).
+Recalculating channel 27 (accuracy=6.045966462759734).
+Recalculating channel 29 (accuracy=16.70743732916127).
+Recalculating channel 35 (accuracy=8.338792107210729).
+Recalculating channel 34 (accuracy=26.02838669470476).
+Recalculating channel 38 (accuracy=3.408810329334034).
+Recalculating channel 37 (accuracy=3.596296535805067).
+Recalculating channel 40 (accuracy=6.175498763045703).
+Recalculating channel 42 (accuracy=3.365290906314914).
+Channel 22 did not converge (accuracy=2.769421911757061), setting gains to NaN.
+Finished calibrating channel 22 in 100 iterations, precision=2.769421911757061.
+Recalculating channel 36 (accuracy=12.18488053998581).
+Recalculating channel 39 (accuracy=3.018407916705392).
+Recalculating channel 41 (accuracy=2.764086474509546).
+Recalculating channel 45 (accuracy=4.252705747228459).
+Recalculating channel 43 (accuracy=5.74011780349896).
+Recalculating channel 44 (accuracy=5.068889900409554).
+Channel 26 did not converge (accuracy=1.966275013160482), setting gains to NaN.
+Finished calibrating channel 26 in 100 iterations, precision=1.966275013160482.
+Channel 23 did not converge (accuracy=2.382297314848314), setting gains to NaN.
+Finished calibrating channel 23 in 100 iterations, precision=2.382297314848314.
+Channel 25 did not converge (accuracy=1.916227912908353), setting gains to NaN.
+Finished calibrating channel 25 in 100 iterations, precision=1.916227912908353.
+Channel 28 did not converge (accuracy=7.345130065991738), setting gains to NaN.
+Finished calibrating channel 28 in 100 iterations, precision=7.345130065991738.
+Channel 29 did not converge (accuracy=16.88095051102146), setting gains to NaN.
+Finished calibrating channel 29 in 100 iterations, precision=16.88095051102146.
+Channel 24 did not converge (accuracy=3.916278875239403), setting gains to NaN.
+Finished calibrating channel 24 in 100 iterations, precision=3.916278875239403.
+Channel 38 did not converge (accuracy=3.322701259698173), setting gains to NaN.
+Finished calibrating channel 38 in 100 iterations, precision=3.322701259698173.
+Channel 34 did not converge (accuracy=23.98731455315514), setting gains to NaN.
+Finished calibrating channel 34 in 100 iterations, precision=23.98731455315514.
+Channel 27 did not converge (accuracy=6.178225834035295), setting gains to NaN.
+Finished calibrating channel 27 in 100 iterations, precision=6.178225834035295.
+Channel 35 did not converge (accuracy=7.260986393554995), setting gains to NaN.
+Finished calibrating channel 35 in 100 iterations, precision=7.260986393554995.
+Recalculating channel 46 (accuracy=5.495979242672112).
+Channel 37 did not converge (accuracy=3.533623632142972), setting gains to NaN.
+Finished calibrating channel 37 in 100 iterations, precision=3.533623632142972.
+Channel 39 did not converge (accuracy=3.191897077221884), setting gains to NaN.
+Finished calibrating channel 39 in 100 iterations, precision=3.191897077221884.
+Channel 42 did not converge (accuracy=3.348483447749464), setting gains to NaN.
+Finished calibrating channel 42 in 100 iterations, precision=3.348483447749464.
+Channel 36 did not converge (accuracy=12.20560544486888), setting gains to NaN.
+Finished calibrating channel 36 in 100 iterations, precision=12.20560544486888.
+Channel 43 did not converge (accuracy=5.891622617507322), setting gains to NaN.
+Finished calibrating channel 43 in 100 iterations, precision=5.891622617507322.
+Channel 40 did not converge (accuracy=6.813490975228577), setting gains to NaN.
+Finished calibrating channel 40 in 100 iterations, precision=6.813490975228577.
+Finished calibrating channel 62 in 1 iterations, precision=0.
+Finished calibrating channel 63 in 1 iterations, precision=0.
+Recalculating channel 47 (accuracy=5.913260442227298).
+Finished calibrating channel 64 in 1 iterations, precision=0.
+Finished calibrating channel 65 in 1 iterations, precision=0.
+Channel 41 did not converge (accuracy=2.806843286012978), setting gains to NaN.
+Finished calibrating channel 41 in 100 iterations, precision=2.806843286012978.
+Recalculating channel 51 (accuracy=7.957282233255321).
+Channel 45 did not converge (accuracy=4.097517494645046), setting gains to NaN.
+Finished calibrating channel 45 in 100 iterations, precision=4.097517494645046.
+Recalculating channel 48 (accuracy=8.985520653684071).
+Channel 44 did not converge (accuracy=5.010084066411124), setting gains to NaN.
+Finished calibrating channel 44 in 100 iterations, precision=5.010084066411124.
+Recalculating channel 49 (accuracy=9.766240904238959).
+Recalculating channel 52 (accuracy=4.214879735998229).
+Recalculating channel 50 (accuracy=7.080546273186828).
+Channel 46 did not converge (accuracy=5.268841936527665), setting gains to NaN.
+Finished calibrating channel 46 in 100 iterations, precision=5.268841936527665.
+Recalculating channel 54 (accuracy=8.690731135043194).
+Recalculating channel 55 (accuracy=3.071834445735471).
+Recalculating channel 53 (accuracy=2.82184315620876).
+Recalculating channel 56 (accuracy=6.031813851864483).
+Recalculating channel 57 (accuracy=1.614006723306111).
+Recalculating channel 59 (accuracy=2.791871470266658).
+Recalculating channel 60 (accuracy=2.407016539040248).
+Recalculating channel 58 (accuracy=4.073405947248177).
+Channel 47 did not converge (accuracy=5.759427546539205), setting gains to NaN.
+Finished calibrating channel 47 in 100 iterations, precision=5.759427546539205.
+Channel 48 did not converge (accuracy=8.976795529000588), setting gains to NaN.
+Finished calibrating channel 48 in 100 iterations, precision=8.976795529000588.
+Recalculating channel 61 (accuracy=16.73133539373578).
+Channel 49 did not converge (accuracy=10.05677766003254), setting gains to NaN.
+Finished calibrating channel 49 in 100 iterations, precision=10.05677766003254.
+Recalculating channel 66 (accuracy=2.038013098552119).
+Recalculating channel 67 (accuracy=6.662647837262944).
+Recalculating channel 69 (accuracy=3.27262040753535).
+Channel 51 did not converge (accuracy=8.699579448606084), setting gains to NaN.
+Finished calibrating channel 51 in 100 iterations, precision=8.699579448606084.
+Recalculating channel 68 (accuracy=2.026874232072099).
+Channel 52 did not converge (accuracy=4.268879320240434), setting gains to NaN.
+Finished calibrating channel 52 in 100 iterations, precision=4.268879320240434.
+Channel 50 did not converge (accuracy=6.771042546121627), setting gains to NaN.
+Finished calibrating channel 50 in 100 iterations, precision=6.771042546121627.
+Recalculating channel 70 (accuracy=2.194869366639516).
+Channel 53 did not converge (accuracy=2.846918045118205), setting gains to NaN.
+Finished calibrating channel 53 in 100 iterations, precision=2.846918045118205.
+Channel 54 did not converge (accuracy=9.110637507948287), setting gains to NaN.
+Finished calibrating channel 54 in 100 iterations, precision=9.110637507948287.
+Channel 55 did not converge (accuracy=3.061850014832963), setting gains to NaN.
+Finished calibrating channel 55 in 100 iterations, precision=3.061850014832963.
+Channel 56 did not converge (accuracy=5.855678554632833), setting gains to NaN.
+Finished calibrating channel 56 in 100 iterations, precision=5.855678554632833.
+Recalculating channel 72 (accuracy=7.190916411742784).
+Recalculating channel 71 (accuracy=2.915244765299496).
+Channel 59 did not converge (accuracy=2.871462046317145), setting gains to NaN.
+Finished calibrating channel 59 in 100 iterations, precision=2.871462046317145.
+Channel 58 did not converge (accuracy=4.103581658136529), setting gains to NaN.
+Finished calibrating channel 58 in 100 iterations, precision=4.103581658136529.
+Channel 60 did not converge (accuracy=2.228890229042757), setting gains to NaN.
+Finished calibrating channel 60 in 100 iterations, precision=2.228890229042757.
+Channel 57 did not converge (accuracy=1.608127981438983), setting gains to NaN.
+Finished calibrating channel 57 in 100 iterations, precision=1.608127981438983.
+Recalculating channel 74 (accuracy=4.181017192655916).
+Recalculating channel 73 (accuracy=3.511784462531353).
+Recalculating channel 76 (accuracy=2.699542003529752).
+Channel 70 did not converge (accuracy=2.200271269443573), setting gains to NaN.
+Finished calibrating channel 70 in 100 iterations, precision=2.200271269443573.
+Channel 66 did not converge (accuracy=2.34624397177901), setting gains to NaN.
+Finished calibrating channel 66 in 100 iterations, precision=2.34624397177901.
+Channel 69 did not converge (accuracy=3.205470346875032), setting gains to NaN.
+Finished calibrating channel 69 in 100 iterations, precision=3.205470346875032.
+Recalculating channel 75 (accuracy=3.82121102661351).
+Channel 67 did not converge (accuracy=8.435982056966511), setting gains to NaN.
+Finished calibrating channel 67 in 100 iterations, precision=8.435982056966511.
+Channel 61 did not converge (accuracy=18.86259498024975), setting gains to NaN.
+Finished calibrating channel 61 in 100 iterations, precision=18.86259498024975.
+Recalculating channel 77 (accuracy=2.26514192686325).
+Channel 68 did not converge (accuracy=1.903557637331309), setting gains to NaN.
+Finished calibrating channel 68 in 100 iterations, precision=1.903557637331309.
+Recalculating channel 78 (accuracy=2.67255995546894).
+Recalculating channel 79 (accuracy=1.806867562860513).
+Channel 72 did not converge (accuracy=7.150500067587802), setting gains to NaN.
+Finished calibrating channel 72 in 100 iterations, precision=7.150500067587802.
+Channel 71 did not converge (accuracy=2.918035153189928), setting gains to NaN.
+Finished calibrating channel 71 in 100 iterations, precision=2.918035153189928.
+Recalculating channel 80 (accuracy=4.97488288592313).
+Recalculating channel 85 (accuracy=2.23115758110847).
+Channel 74 did not converge (accuracy=4.29753374304371), setting gains to NaN.
+Finished calibrating channel 74 in 100 iterations, precision=4.29753374304371.
+Recalculating channel 82 (accuracy=3.795424831859956).
+Recalculating channel 83 (accuracy=2.930667657731253).
+Recalculating channel 84 (accuracy=1.530605508922363).
+Channel 73 did not converge (accuracy=3.625906829382116), setting gains to NaN.
+Finished calibrating channel 73 in 100 iterations, precision=3.625906829382116.
+Finished calibrating channel 94 in 1 iterations, precision=0.
+Recalculating channel 81 (accuracy=3.354331366968103).
+Finished calibrating channel 95 in 1 iterations, precision=0.
+Finished calibrating channel 96 in 1 iterations, precision=0.
+Finished calibrating channel 97 in 1 iterations, precision=0.
+Channel 76 did not converge (accuracy=2.710624128868376), setting gains to NaN.
+Finished calibrating channel 76 in 100 iterations, precision=2.710624128868376.
+Channel 75 did not converge (accuracy=3.94202291838323), setting gains to NaN.
+Finished calibrating channel 75 in 100 iterations, precision=3.94202291838323.
+Recalculating channel 87 (accuracy=3.076436727340338).
+Recalculating channel 86 (accuracy=1.989124741209768).
+Recalculating channel 89 (accuracy=2.093779543665799).
+Channel 77 did not converge (accuracy=2.305795232570076), setting gains to NaN.
+Finished calibrating channel 77 in 100 iterations, precision=2.305795232570076.
+Recalculating channel 91 (accuracy=3.640562401634117).
+Recalculating channel 88 (accuracy=4.196680131203467).
+Channel 79 did not converge (accuracy=1.803439633998773), setting gains to NaN.
+Finished calibrating channel 79 in 100 iterations, precision=1.803439633998773.
+Recalculating channel 92 (accuracy=4.558771106557723).
+Channel 78 did not converge (accuracy=2.626644079977088), setting gains to NaN.
+Finished calibrating channel 78 in 100 iterations, precision=2.626644079977088.
+Recalculating channel 93 (accuracy=3.024617406626517).
+Recalculating channel 90 (accuracy=5.244903534720914).
+Channel 85 did not converge (accuracy=2.158510129256685), setting gains to NaN.
+Finished calibrating channel 85 in 100 iterations, precision=2.158510129256685.
+Channel 82 did not converge (accuracy=3.758364610546737), setting gains to NaN.
+Finished calibrating channel 82 in 100 iterations, precision=3.758364610546737.
+Channel 80 did not converge (accuracy=5.016373335081638), setting gains to NaN.
+Finished calibrating channel 80 in 100 iterations, precision=5.016373335081638.
+Recalculating channel 100 (accuracy=0.9379829678645036).
+Channel 81 did not converge (accuracy=3.32346833280115), setting gains to NaN.
+Finished calibrating channel 81 in 100 iterations, precision=3.32346833280115.
+Recalculating channel 98 (accuracy=2.868508434590481).
+Recalculating channel 99 (accuracy=3.010457955436565).
+Channel 83 did not converge (accuracy=2.87309581651441), setting gains to NaN.
+Finished calibrating channel 83 in 100 iterations, precision=2.87309581651441.
+Channel 84 did not converge (accuracy=1.496589191895242), setting gains to NaN.
+Finished calibrating channel 84 in 100 iterations, precision=1.496589191895242.
+Recalculating channel 101 (accuracy=1.651893382582508).
+Channel 88 did not converge (accuracy=4.108256625276847), setting gains to NaN.
+Finished calibrating channel 88 in 100 iterations, precision=4.108256625276847.
+Channel 86 did not converge (accuracy=1.935071265535348), setting gains to NaN.
+Finished calibrating channel 86 in 100 iterations, precision=1.935071265535348.
+Channel 87 did not converge (accuracy=3.059973634552171), setting gains to NaN.
+Finished calibrating channel 87 in 100 iterations, precision=3.059973634552171.
+Channel 91 did not converge (accuracy=3.781408319807017), setting gains to NaN.
+Finished calibrating channel 91 in 100 iterations, precision=3.781408319807017.
+Channel 89 did not converge (accuracy=2.030033757432456), setting gains to NaN.
+Finished calibrating channel 89 in 100 iterations, precision=2.030033757432456.
+Recalculating channel 102 (accuracy=1.287516929895513).
+Recalculating channel 103 (accuracy=0.9471508572004524).
+Channel 93 did not converge (accuracy=2.822539038706223), setting gains to NaN.
+Finished calibrating channel 93 in 100 iterations, precision=2.822539038706223.
+Channel 92 did not converge (accuracy=4.451713945025676), setting gains to NaN.
+Finished calibrating channel 92 in 100 iterations, precision=4.451713945025676.
+Channel 90 did not converge (accuracy=5.28187621639797), setting gains to NaN.
+Finished calibrating channel 90 in 100 iterations, precision=5.28187621639797.
+Recalculating channel 104 (accuracy=1.386312749206831).
+Channel 100 did not converge (accuracy=0.8911957828692125), setting gains to NaN.
+Finished calibrating channel 100 in 100 iterations, precision=0.8911957828692125.
+Recalculating channel 105 (accuracy=0.9081465102131249).
+Recalculating channel 107 (accuracy=1.373697501349984).
+Channel 98 did not converge (accuracy=3.250741925518802), setting gains to NaN.
+Finished calibrating channel 98 in 100 iterations, precision=3.250741925518802.
+Recalculating channel 106 (accuracy=1.650747240584122).
+Channel 99 did not converge (accuracy=3.121728937784225), setting gains to NaN.
+Finished calibrating channel 99 in 100 iterations, precision=3.121728937784225.
+Recalculating channel 109 (accuracy=1.606674955824212).
+Recalculating channel 108 (accuracy=1.295251139841756).
+Channel 102 did not converge (accuracy=1.260550811559872), setting gains to NaN.
+Finished calibrating channel 102 in 100 iterations, precision=1.260550811559872.
+Channel 101 did not converge (accuracy=1.699589318115086), setting gains to NaN.
+Finished calibrating channel 101 in 100 iterations, precision=1.699589318115086.
+Recalculating channel 110 (accuracy=0.7996315289101582).
+Channel 103 did not converge (accuracy=0.9327550625935279), setting gains to NaN.
+Finished calibrating channel 103 in 100 iterations, precision=0.9327550625935279.
+Recalculating channel 116 (accuracy=0.6232387090104957).
+Recalculating channel 112 (accuracy=1.029034457783818).
+Recalculating channel 113 (accuracy=0.732065952913731).
+Recalculating channel 115 (accuracy=0.4578350258536607).
+Recalculating channel 114 (accuracy=0.3379480412355721).
+Recalculating channel 111 (accuracy=0.5891697124775567).
+Recalculating channel 118 (accuracy=0.55381300402217).
+Recalculating channel 117 (accuracy=0.5729553593203472).
+Channel 104 did not converge (accuracy=1.33657080860467), setting gains to NaN.
+Finished calibrating channel 104 in 100 iterations, precision=1.33657080860467.
+Recalculating channel 119 (accuracy=0.2538634546976026).
+Recalculating channel 121 (accuracy=0.483599615529904).
+Channel 107 did not converge (accuracy=1.417151866978011), setting gains to NaN.
+Finished calibrating channel 107 in 100 iterations, precision=1.417151866978011.
+Recalculating channel 120 (accuracy=0.529328483798962).
+Channel 105 did not converge (accuracy=0.8850714247117558), setting gains to NaN.
+Finished calibrating channel 105 in 100 iterations, precision=0.8850714247117558.
+Finished calibrating channel 126 in 1 iterations, precision=0.
+Finished calibrating channel 127 in 1 iterations, precision=0.
+Finished calibrating channel 128 in 1 iterations, precision=0.
+Finished calibrating channel 129 in 1 iterations, precision=0.
+Channel 106 did not converge (accuracy=1.628144994410942), setting gains to NaN.
+Finished calibrating channel 106 in 100 iterations, precision=1.628144994410942.
+Channel 108 did not converge (accuracy=1.28085417604933), setting gains to NaN.
+Finished calibrating channel 108 in 100 iterations, precision=1.28085417604933.
+Recalculating channel 122 (accuracy=0.6437512493710181).
+Channel 110 did not converge (accuracy=0.7890996547001092), setting gains to NaN.
+Finished calibrating channel 110 in 100 iterations, precision=0.7890996547001092.
+Channel 109 did not converge (accuracy=1.583237620898001), setting gains to NaN.
+Finished calibrating channel 109 in 100 iterations, precision=1.583237620898001.
+Channel 116 did not converge (accuracy=0.6235924166199773), setting gains to NaN.
+Finished calibrating channel 116 in 100 iterations, precision=0.6235924166199773.
+Recalculating channel 123 (accuracy=0.3414915627744899).
+Channel 118 did not converge (accuracy=0.5651580581890678), setting gains to NaN.
+Finished calibrating channel 118 in 100 iterations, precision=0.5651580581890678.
+Channel 113 did not converge (accuracy=0.7153771313501713), setting gains to NaN.
+Finished calibrating channel 113 in 100 iterations, precision=0.7153771313501713.
+Channel 115 did not converge (accuracy=0.483658790067883), setting gains to NaN.
+Finished calibrating channel 115 in 100 iterations, precision=0.483658790067883.
+Channel 114 did not converge (accuracy=0.3253610284344065), setting gains to NaN.
+Finished calibrating channel 114 in 100 iterations, precision=0.3253610284344065.
+Channel 111 did not converge (accuracy=0.5676528618514971), setting gains to NaN.
+Finished calibrating channel 111 in 100 iterations, precision=0.5676528618514971.
+Channel 112 did not converge (accuracy=1.004862175775537), setting gains to NaN.
+Finished calibrating channel 112 in 100 iterations, precision=1.004862175775537.
+Recalculating channel 124 (accuracy=0.8401041418483517).
+Channel 117 did not converge (accuracy=0.5879363529145347), setting gains to NaN.
+Finished calibrating channel 117 in 100 iterations, precision=0.5879363529145347.
+Channel 121 did not converge (accuracy=0.493462198933057), setting gains to NaN.
+Finished calibrating channel 121 in 100 iterations, precision=0.493462198933057.
+Channel 119 did not converge (accuracy=0.2685857284140047), setting gains to NaN.
+Finished calibrating channel 119 in 100 iterations, precision=0.2685857284140047.
+Channel 122 did not converge (accuracy=0.6506311286755085), setting gains to NaN.
+Finished calibrating channel 122 in 100 iterations, precision=0.6506311286755085.
+Channel 120 did not converge (accuracy=0.5171133045289116), setting gains to NaN.
+Finished calibrating channel 120 in 100 iterations, precision=0.5171133045289116.
+Recalculating channel 131 (accuracy=1.691272680638461).
+Recalculating channel 130 (accuracy=0.6410953618588894).
+Recalculating channel 125 (accuracy=1.851972380465905).
+Recalculating channel 135 (accuracy=0.2877953638587019).
+Channel 123 did not converge (accuracy=0.3324376310434732), setting gains to NaN.
+Finished calibrating channel 123 in 100 iterations, precision=0.3324376310434732.
+Recalculating channel 132 (accuracy=0.2845469554956674).
+Recalculating channel 136 (accuracy=0.1510153337072271).
+Recalculating channel 137 (accuracy=0.3052651039763223).
+Recalculating channel 133 (accuracy=0.1630683711712809).
+Recalculating channel 134 (accuracy=1.91928590199713).
+Recalculating channel 138 (accuracy=1.016331664614012).
+Recalculating channel 139 (accuracy=0.2599529674866492).
+Recalculating channel 140 (accuracy=0.3014851416578128).
+Recalculating channel 143 (accuracy=0.2433269893177631).
+Recalculating channel 141 (accuracy=0.433581770558583).
+Channel 124 did not converge (accuracy=0.9632699530725525), setting gains to NaN.
+Finished calibrating channel 124 in 100 iterations, precision=0.9632699530725525.
+Recalculating channel 145 (accuracy=0.3149581339823004).
+Recalculating channel 146 (accuracy=0.2624791768417118).
+Recalculating channel 144 (accuracy=0.6922371868405662).
+Channel 135 did not converge (accuracy=0.2814760906487055), setting gains to NaN.
+Finished calibrating channel 135 in 100 iterations, precision=0.2814760906487055.
+Recalculating channel 142 (accuracy=0.4442073096179275).
+Recalculating channel 147 (accuracy=0.5597971151036402).
+Channel 137 did not converge (accuracy=0.3092383295865613), setting gains to NaN.
+Finished calibrating channel 137 in 100 iterations, precision=0.3092383295865613.
+Channel 131 did not converge (accuracy=0.3220699096944918), setting gains to NaN.
+Finished calibrating channel 131 in 100 iterations, precision=0.3220699096944918.
+Channel 130 did not converge (accuracy=0.6365336911643549), setting gains to NaN.
+Finished calibrating channel 130 in 100 iterations, precision=0.6365336911643549.
+Channel 136 did not converge (accuracy=0.1421059095445741), setting gains to NaN.
+Finished calibrating channel 136 in 100 iterations, precision=0.1421059095445741.
+Channel 132 did not converge (accuracy=0.2852412200186423), setting gains to NaN.
+Finished calibrating channel 132 in 100 iterations, precision=0.2852412200186423.
+Channel 125 did not converge (accuracy=0.7664645987523835), setting gains to NaN.
+Finished calibrating channel 125 in 100 iterations, precision=0.7664645987523835.
+Channel 138 did not converge (accuracy=10.37944430481937), setting gains to NaN.
+Finished calibrating channel 138 in 100 iterations, precision=10.37944430481937.
+Channel 134 did not converge (accuracy=1.676137789357773), setting gains to NaN.
+Finished calibrating channel 134 in 100 iterations, precision=1.676137789357773.
+Channel 133 did not converge (accuracy=0.1594054422145426), setting gains to NaN.
+Finished calibrating channel 133 in 100 iterations, precision=0.1594054422145426.
+Finished calibrating channel 158 in 1 iterations, precision=0.
+Finished calibrating channel 159 in 1 iterations, precision=0.
+Finished calibrating channel 160 in 1 iterations, precision=0.
+Finished calibrating channel 161 in 1 iterations, precision=0.
+Recalculating channel 148 (accuracy=0.1394190780087588).
+Channel 139 did not converge (accuracy=0.281237055721531), setting gains to NaN.
+Finished calibrating channel 139 in 100 iterations, precision=0.281237055721531.
+Channel 143 did not converge (accuracy=0.2362950667639928), setting gains to NaN.
+Finished calibrating channel 143 in 100 iterations, precision=0.2362950667639928.
+Channel 140 did not converge (accuracy=0.2978555993897248), setting gains to NaN.
+Finished calibrating channel 140 in 100 iterations, precision=0.2978555993897248.
+Channel 141 did not converge (accuracy=0.4151450373496223), setting gains to NaN.
+Finished calibrating channel 141 in 100 iterations, precision=0.4151450373496223.
+Channel 146 did not converge (accuracy=0.2532716860139556), setting gains to NaN.
+Finished calibrating channel 146 in 100 iterations, precision=0.2532716860139556.
+Channel 145 did not converge (accuracy=0.3194063167792974), setting gains to NaN.
+Finished calibrating channel 145 in 100 iterations, precision=0.3194063167792974.
+Channel 144 did not converge (accuracy=0.7029917537315613), setting gains to NaN.
+Finished calibrating channel 144 in 100 iterations, precision=0.7029917537315613.
+Recalculating channel 149 (accuracy=0.0188820519015506).
+Channel 142 did not converge (accuracy=0.450651410669107), setting gains to NaN.
+Finished calibrating channel 142 in 100 iterations, precision=0.450651410669107.
+Recalculating channel 150 (accuracy=0.3713466230189473).
+Channel 147 did not converge (accuracy=0.6260770545508938), setting gains to NaN.
+Finished calibrating channel 147 in 100 iterations, precision=0.6260770545508938.
+Recalculating channel 153 (accuracy=0.09641032169165883).
+Recalculating channel 156 (accuracy=0.787062090245054).
+Recalculating channel 152 (accuracy=0.208670429209711).
+Recalculating channel 151 (accuracy=0.1535463995983654).
+Recalculating channel 155 (accuracy=0.6365312331912465).
+Recalculating channel 154 (accuracy=0.5194667693612584).
+Recalculating channel 157 (accuracy=0.2190917175624038).
+Recalculating channel 169 (accuracy=0.3915337946472099).
+Recalculating channel 163 (accuracy=0.4867551392482505).
+Channel 148 did not converge (accuracy=0.1386838829560216), setting gains to NaN.
+Finished calibrating channel 148 in 100 iterations, precision=0.1386838829560216.
+Recalculating channel 164 (accuracy=0.06199708372332159).
+Recalculating channel 167 (accuracy=0.03983152135772046).
+Recalculating channel 162 (accuracy=0.1189425438896489).
+Recalculating channel 165 (accuracy=0.1611293404515545).
+Recalculating channel 168 (accuracy=0.4776865936166285).
+Channel 150 did not converge (accuracy=0.3662074169598014), setting gains to NaN.
+Finished calibrating channel 150 in 100 iterations, precision=0.3662074169598014.
+Channel 149 did not converge (accuracy=0.01707066500274032), setting gains to NaN.
+Finished calibrating channel 149 in 100 iterations, precision=0.01707066500274032.
+Recalculating channel 166 (accuracy=0.03555318179159531).
+Recalculating channel 171 (accuracy=0.04323717864993283).
+Recalculating channel 170 (accuracy=0.0519474434019853).
+Channel 153 did not converge (accuracy=0.07521749624655545), setting gains to NaN.
+Finished calibrating channel 153 in 100 iterations, precision=0.07521749624655545.
+Channel 156 did not converge (accuracy=0.5143628479471772), setting gains to NaN.
+Finished calibrating channel 156 in 100 iterations, precision=0.5143628479471772.
+Channel 154 did not converge (accuracy=0.5095641495895025), setting gains to NaN.
+Finished calibrating channel 154 in 100 iterations, precision=0.5095641495895025.
+Channel 155 did not converge (accuracy=0.2520834871332887), setting gains to NaN.
+Finished calibrating channel 155 in 100 iterations, precision=0.2520834871332887.
+Channel 151 did not converge (accuracy=0.219645643650004), setting gains to NaN.
+Finished calibrating channel 151 in 100 iterations, precision=0.219645643650004.
+Channel 152 did not converge (accuracy=0.2874828885403243), setting gains to NaN.
+Finished calibrating channel 152 in 100 iterations, precision=0.2874828885403243.
+Channel 169 did not converge (accuracy=1.705484992290562), setting gains to NaN.
+Finished calibrating channel 169 in 100 iterations, precision=1.705484992290562.
+Channel 164 did not converge (accuracy=0.05947060392876602), setting gains to NaN.
+Finished calibrating channel 164 in 100 iterations, precision=0.05947060392876602.
+Recalculating channel 172 (accuracy=0.01245176385106166).
+Channel 167 did not converge (accuracy=0.03893691288913954), setting gains to NaN.
+Finished calibrating channel 167 in 100 iterations, precision=0.03893691288913954.
+Channel 163 did not converge (accuracy=0.4887302632453218), setting gains to NaN.
+Finished calibrating channel 163 in 100 iterations, precision=0.4887302632453218.
+Recalculating channel 173 (accuracy=0.02366023651140199).
+Channel 157 did not converge (accuracy=0.5039801812845406), setting gains to NaN.
+Finished calibrating channel 157 in 100 iterations, precision=0.5039801812845406.
+Channel 165 did not converge (accuracy=0.1869660561469934), setting gains to NaN.
+Finished calibrating channel 165 in 100 iterations, precision=0.1869660561469934.
+Channel 162 did not converge (accuracy=0.06110666400617406), setting gains to NaN.
+Finished calibrating channel 162 in 100 iterations, precision=0.06110666400617406.
+Channel 168 did not converge (accuracy=0.3719743084752055), setting gains to NaN.
+Finished calibrating channel 168 in 100 iterations, precision=0.3719743084752055.
+Recalculating channel 174 (accuracy=0.01045492211510383).
+Channel 171 did not converge (accuracy=0.04079647157713692), setting gains to NaN.
+Finished calibrating channel 171 in 100 iterations, precision=0.04079647157713692.
+Recalculating channel 175 (accuracy=0.1507265438878071).
+Channel 170 did not converge (accuracy=0.05382132630260042), setting gains to NaN.
+Finished calibrating channel 170 in 100 iterations, precision=0.05382132630260042.
+Finished calibrating channel 190 in 1 iterations, precision=0.
+Finished calibrating channel 191 in 1 iterations, precision=0.
+Channel 166 did not converge (accuracy=0.03214821690850212), setting gains to NaN.
+Finished calibrating channel 166 in 100 iterations, precision=0.03214821690850212.
+Finished calibrating channel 192 in 1 iterations, precision=0.
+Finished calibrating channel 193 in 1 iterations, precision=0.
+Recalculating channel 176 (accuracy=0.02733221466571115).
+Recalculating channel 182 (accuracy=0.09092658653863261).
+Recalculating channel 183 (accuracy=0.1221456496181422).
+Recalculating channel 177 (accuracy=0.09075987081715889).
+Channel 172 did not converge (accuracy=0.01276488284418641), setting gains to NaN.
+Finished calibrating channel 172 in 100 iterations, precision=0.01276488284418641.
+Recalculating channel 181 (accuracy=0.03464433481913046).
+Recalculating channel 180 (accuracy=0.1019262027163107).
+Recalculating channel 178 (accuracy=0.06239401608206176).
+Recalculating channel 179 (accuracy=0.05906810732353852).
+Recalculating channel 184 (accuracy=0.07674475225690613).

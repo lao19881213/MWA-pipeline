@@ -1,0 +1,16 @@
+
+WSClean version 1.10 (2015-12-12)
+This software package is released under the GPL version 3.
+Author: André Offringa (offringa@gmail.com).
+
+First measurement set has corrected data: tasks will be applied on the corrected data column.
+=== IMAGING TABLE ===
+       # Pol Ch JG ²G Freq(MHz)
+| Independent group:
++-+-J- 0 XX   0  0  0  139-170
+    J- 1 XY   0  0  0  139-170
+    J- 2 YX   0  0  0  139-170
+    J- 3 YY   0  0  0  139-170
+
+Reordering 1123793080.ms (231168 selected rows) into 1 x 4 parts.
+Reordering: 0%....10%....20%....30%...

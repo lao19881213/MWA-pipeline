@@ -1,0 +1,31 @@
+Thu Jun  2 16:36:10 2016 [INFO] Finding observation 1146607864
+Thu Jun  2 16:36:10 2016 [INFO] Found 26 files
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_metafits_ppds.fits complete [1 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox10_00.fits complete [2 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox13_00.fits complete [3 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox22_00.fits complete [4 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox07_00.fits complete [5 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox12_00.fits complete [6 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox09_00.fits complete [7 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox17_00.fits complete [8 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox11_00.fits complete [9 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox24_00.fits complete [10 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox08_00.fits complete [11 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox15_00.fits complete [12 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox21_00.fits complete [13 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox05_00.fits complete [14 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox20_00.fits complete [15 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox23_00.fits complete [16 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox03_00.fits complete [17 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox14_00.fits complete [18 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox01_00.fits complete [19 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox04_00.fits complete [20 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox02_00.fits complete [21 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox18_00.fits complete [22 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox19_00.fits complete [23 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox06_00.fits complete [24 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_flags.zip complete [25 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] 1146607864_20160506221049_gpubox16_00.fits complete [26 of 26]
+Thu Jun  2 16:36:10 2016 [INFO] File Transfer Complete.
+Thu Jun  2 16:36:10 2016 [INFO] File Transfer Success.
+Submitted batch job 1277757 on cluster galaxy

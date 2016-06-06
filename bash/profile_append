@@ -1,0 +1,30 @@
+
+# Module loads
+
+module swap PrgEnv-cray PrgEnv-gnu
+module load python
+module load matplotlib
+module load numpy
+module load lapack
+if [[ "$PAWSEY_CLUSTER" == "galaxy" ]]
+then
+    module load pyephem
+    module load doxygen
+    module load java
+    module load fftw/3.3.4.3 # for casacore 2.0.3
+    module load pigz
+    module load psycopg2
+    module load blist # aegean
+    module load lmfit # aegean
+    module load healpy # aegean
+    module load scikit-learn # aegean
+    module load argparse # aegean
+    module load gsl
+    module load boost
+    module load cmake
+    module load cfitsio
+    module load wcslib
+    module load astropy
+    module load scipy
+fi
+

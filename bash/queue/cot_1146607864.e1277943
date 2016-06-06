@@ -1,0 +1,3 @@
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+WARNING: VerifyWarning: Card is too long, comment will be truncated. [astropy.io.fits.card]
+# WARNING:astropy: VerifyWarning: Card is too long, comment will be truncated.

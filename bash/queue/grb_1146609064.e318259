@@ -1,0 +1,2 @@
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+slurmstepd: Exceeded step memory limit at some point.

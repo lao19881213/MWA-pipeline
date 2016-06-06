@@ -1,0 +1,246 @@
+Archive:  1146606664_flags.zip
+  inflating: 1146606664_01.mwaf      
+  inflating: 1146606664_02.mwaf      
+  inflating: 1146606664_03.mwaf      
+  inflating: 1146606664_04.mwaf      
+  inflating: 1146606664_05.mwaf      
+  inflating: 1146606664_06.mwaf      
+  inflating: 1146606664_07.mwaf      
+  inflating: 1146606664_08.mwaf      
+  inflating: 1146606664_09.mwaf      
+  inflating: 1146606664_10.mwaf      
+  inflating: 1146606664_11.mwaf      
+  inflating: 1146606664_12.mwaf      
+  inflating: 1146606664_13.mwaf      
+  inflating: 1146606664_14.mwaf      
+  inflating: 1146606664_15.mwaf      
+  inflating: 1146606664_16.mwaf      
+  inflating: 1146606664_17.mwaf      
+  inflating: 1146606664_18.mwaf      
+  inflating: 1146606664_19.mwaf      
+  inflating: 1146606664_20.mwaf      
+  inflating: 1146606664_21.mwaf      
+  inflating: 1146606664_22.mwaf      
+  inflating: 1146606664_23.mwaf      
+  inflating: 1146606664_24.mwaf      
+Running Cotter MWA preprocessing pipeline, version 3.5 (2015-08-16).
+Flagging is performed by AOFlagger 2.7.1 (2015-07-01).
+Input filenames succesfully parsed: using 24 files covering 1 timeranges from 24 GPU boxes.
+Using 2/63 GB of system memory.
+Ignored keyword: OBJECT
+Ignored keyword: OBSERVER
+Ignored keyword: CHANSEL
+Ignored keyword: INSTRUME
+The metafits file does not specify a phase centre; will use pointing centre as phase
+centre, unless overridden on command line.
+Observation covers 169.6-200.31 MHz.
+Output resolution: 4 s / 40 kHz (time avg: 2x, freq avg: 4x).
+The first 2 samples (4 s), last 0 samples (0 s) and 8 edge channels will be flagged.
+Using a-priori subband passband with 128 channels.
+Using per-input subband gains. Average gains: 1.04187,1.04517,1.05151,1.05811,1.07373,1.08704,1.10754,1.12769,1.14001,1.15564,1.16858,1.1842,1.20544,1.22559,1.25,1.26917,1.29419,1.30981,1.32898,1.3446,1.36145,1.37708,1.39832,1.41394
+Subband order: 23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0
+Observation's bandwidth is contiguous.
+Observation does not fit fully in memory, will partition data in 29 chunks of at least 1 scans.
+=== Processing chunk 1 of 29 ===
+There are 55 HDUs in file 1146606664_20160506215049_gpubox24_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox23_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox22_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox21_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox20_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox19_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox18_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox17_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox16_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox15_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox14_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox13_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox12_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox11_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox10_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox09_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox08_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox07_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox06_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox05_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox04_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox03_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox02_00.fits
+There are 55 HDUs in file 1146606664_20160506215049_gpubox01_00.fits
+Will stop on HDU 55.
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 2 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 3 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 4 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 5 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 6 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 7 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 8 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 9 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 10 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 11 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 12 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 13 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 14 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 15 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 16 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 17 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 18 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 19 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 20 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 21 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 22 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 23 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 24 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 25 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 26 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 27 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 28 of 29 ===
+Reading GPU files: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+=== Processing chunk 29 of 29 ===
+Warning: header specifies 56 scans, but there are only 54 in the data.
+Last 2 scan(s) will be flagged.
+Reading flags: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Stats, conjugations, subband ordering and cable length corrections:
+ 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing: 0%....10%....20%....30%....40%....50%....60%....70%....80%....90%....100%
+Writing statistics to measurement set...
+Writing MWA fields to measurement set...
+Wall-clock time in reading: 00:03:13.640600 processing: 00:01:05.163103 writing: 00:10:44.036775

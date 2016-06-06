@@ -1,0 +1,6 @@
+#!/bin/bash -l
+
+# Cotter the data
+
+
+aprun="aprun -n 1 -d NCPUS -q "

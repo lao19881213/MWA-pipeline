@@ -1,0 +1,57 @@
+Thu Jun  2 12:16:50 2016 [INFO] Finding observation 1146609064
+Thu Jun  2 12:16:50 2016 [INFO] Found 26 files
+Thu Jun  2 12:16:50 2016 [INFO] Downloading 1146609064_20160506223049_gpubox06_00.fits
+Thu Jun  2 12:16:50 2016 [INFO] Downloading 1146609064_20160506223049_gpubox04_00.fits
+Thu Jun  2 12:16:51 2016 [INFO] Downloading 1146609064_20160506223049_gpubox03_00.fits
+Thu Jun  2 12:16:51 2016 [INFO] Downloading 1146609064_20160506223049_gpubox02_00.fits
+Thu Jun  2 12:17:53 2016 [INFO] 1146609064_20160506223049_gpubox02_00.fits complete [1 of 26]
+Thu Jun  2 12:17:53 2016 [INFO] 1146609064_20160506223049_gpubox03_00.fits complete [2 of 26]
+Thu Jun  2 12:17:53 2016 [INFO] 1146609064_20160506223049_gpubox06_00.fits complete [3 of 26]
+Thu Jun  2 12:17:54 2016 [INFO] 1146609064_20160506223049_gpubox04_00.fits complete [4 of 26]
+Thu Jun  2 12:17:54 2016 [INFO] Downloading 1146609064_20160506223049_gpubox20_00.fits
+Thu Jun  2 12:17:54 2016 [INFO] Downloading 1146609064_20160506223049_gpubox12_00.fits
+Thu Jun  2 12:17:54 2016 [INFO] Downloading 1146609064_20160506223049_gpubox18_00.fits
+Thu Jun  2 12:17:54 2016 [INFO] Downloading 1146609064_20160506223049_gpubox22_00.fits
+Thu Jun  2 12:18:29 2016 [INFO] 1146609064_20160506223049_gpubox12_00.fits complete [5 of 26]
+Thu Jun  2 12:18:30 2016 [INFO] Downloading 1146609064_metafits_ppds.fits
+Thu Jun  2 12:18:36 2016 [INFO] 1146609064_metafits_ppds.fits complete [6 of 26]
+Thu Jun  2 12:18:36 2016 [INFO] Downloading 1146609064_20160506223049_gpubox16_00.fits
+Thu Jun  2 12:19:14 2016 [INFO] 1146609064_20160506223049_gpubox20_00.fits complete [7 of 26]
+Thu Jun  2 12:19:14 2016 [INFO] Downloading 1146609064_20160506223049_gpubox14_00.fits
+Thu Jun  2 12:19:15 2016 [INFO] 1146609064_20160506223049_gpubox18_00.fits complete [8 of 26]
+Thu Jun  2 12:19:15 2016 [INFO] Downloading 1146609064_20160506223049_gpubox15_00.fits
+Thu Jun  2 12:19:16 2016 [INFO] 1146609064_20160506223049_gpubox22_00.fits complete [9 of 26]
+Thu Jun  2 12:19:16 2016 [INFO] Downloading 1146609064_20160506223049_gpubox17_00.fits
+Thu Jun  2 12:19:40 2016 [INFO] 1146609064_20160506223049_gpubox16_00.fits complete [10 of 26]
+Thu Jun  2 12:19:40 2016 [INFO] Downloading 1146609064_20160506223049_gpubox19_00.fits
+Thu Jun  2 12:20:21 2016 [INFO] 1146609064_20160506223049_gpubox14_00.fits complete [11 of 26]
+Thu Jun  2 12:20:21 2016 [INFO] Downloading 1146609064_flags.zip
+Thu Jun  2 12:20:25 2016 [INFO] 1146609064_20160506223049_gpubox15_00.fits complete [12 of 26]
+Thu Jun  2 12:20:25 2016 [INFO] 1146609064_flags.zip complete [13 of 26]
+Thu Jun  2 12:20:25 2016 [INFO] Downloading 1146609064_20160506223049_gpubox10_00.fits
+Thu Jun  2 12:20:25 2016 [INFO] Downloading 1146609064_20160506223049_gpubox09_00.fits
+Thu Jun  2 12:20:25 2016 [INFO] 1146609064_20160506223049_gpubox17_00.fits complete [14 of 26]
+Thu Jun  2 12:20:26 2016 [INFO] Downloading 1146609064_20160506223049_gpubox11_00.fits
+Thu Jun  2 12:20:42 2016 [INFO] 1146609064_20160506223049_gpubox19_00.fits complete [15 of 26]
+Thu Jun  2 12:20:42 2016 [INFO] Downloading 1146609064_20160506223049_gpubox23_00.fits
+Thu Jun  2 12:21:30 2016 [INFO] 1146609064_20160506223049_gpubox10_00.fits complete [16 of 26]
+Thu Jun  2 12:21:30 2016 [INFO] Downloading 1146609064_20160506223049_gpubox01_00.fits
+Thu Jun  2 12:21:33 2016 [INFO] 1146609064_20160506223049_gpubox09_00.fits complete [17 of 26]
+Thu Jun  2 12:21:34 2016 [INFO] 1146609064_20160506223049_gpubox11_00.fits complete [18 of 26]
+Thu Jun  2 12:21:34 2016 [INFO] Downloading 1146609064_20160506223049_gpubox24_00.fits
+Thu Jun  2 12:21:34 2016 [INFO] Downloading 1146609064_20160506223049_gpubox13_00.fits
+Thu Jun  2 12:21:42 2016 [INFO] 1146609064_20160506223049_gpubox23_00.fits complete [19 of 26]
+Thu Jun  2 12:21:42 2016 [INFO] Downloading 1146609064_20160506223049_gpubox07_00.fits
+Thu Jun  2 12:22:30 2016 [INFO] 1146609064_20160506223049_gpubox01_00.fits complete [20 of 26]
+Thu Jun  2 12:22:31 2016 [INFO] Downloading 1146609064_20160506223049_gpubox05_00.fits
+Thu Jun  2 12:22:44 2016 [INFO] 1146609064_20160506223049_gpubox13_00.fits complete [21 of 26]
+Thu Jun  2 12:22:44 2016 [INFO] 1146609064_20160506223049_gpubox24_00.fits complete [22 of 26]
+Thu Jun  2 12:22:45 2016 [INFO] 1146609064_20160506223049_gpubox07_00.fits complete [23 of 26]
+Thu Jun  2 12:22:45 2016 [INFO] Downloading 1146609064_20160506223049_gpubox08_00.fits
+Thu Jun  2 12:22:45 2016 [INFO] Downloading 1146609064_20160506223049_gpubox21_00.fits
+Thu Jun  2 12:23:19 2016 [INFO] 1146609064_20160506223049_gpubox05_00.fits complete [24 of 26]
+Thu Jun  2 12:23:29 2016 [INFO] 1146609064_20160506223049_gpubox08_00.fits complete [25 of 26]
+Thu Jun  2 12:23:30 2016 [INFO] 1146609064_20160506223049_gpubox21_00.fits complete [26 of 26]
+Thu Jun  2 12:23:30 2016 [INFO] File Transfer Complete.
+Thu Jun  2 12:23:30 2016 [INFO] File Transfer Success.
+Submitted batch job 1276366 on cluster galaxy
